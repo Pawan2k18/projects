@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		513CE173FFC185F97BED60E6 /* Pods_Travanada2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A8087E4E4ADB8B2EFF22C8 /* Pods_Travanada2.framework */; };
+		871CEA962282B2F40063451A /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871CEA952282B2F40063451A /* DestinationViewController.swift */; };
+		871CEA982282B3080063451A /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871CEA972282B3080063451A /* DetailsViewController.swift */; };
+		871CEB842282DB1F0063451A /* airport.txt in Resources */ = {isa = PBXBuildFile; fileRef = 871CEB832282DB1F0063451A /* airport.txt */; };
+		87B0F4F12283F64F001F6F24 /* GMStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B0F4F02283F64F001F6F24 /* GMStepper.swift */; };
+		87C92F0B22801AB00097FD93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C92F0A22801AB00097FD93 /* AppDelegate.swift */; };
+		87C92F0D22801AB00097FD93 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C92F0C22801AB00097FD93 /* HomeViewController.swift */; };
+		87C92F1022801AB00097FD93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C92F0E22801AB00097FD93 /* Main.storyboard */; };
+		87C92F1222801AC20097FD93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C92F1122801AC20097FD93 /* Assets.xcassets */; };
+		87C92F1522801AC20097FD93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C92F1322801AC20097FD93 /* LaunchScreen.storyboard */; };
+		87C92F1D228041F50097FD93 /* SourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C92F1C228041F50097FD93 /* SourceViewController.swift */; };
+		87C92F2122805F800097FD93 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C92F2022805F800097FD93 /* CalendarViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2878B3634F58CB8B82AF9CC5 /* Pods-Travanada2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travanada2.release.xcconfig"; path = "Target Support Files/Pods-Travanada2/Pods-Travanada2.release.xcconfig"; sourceTree = "<group>"; };
+		75A8087E4E4ADB8B2EFF22C8 /* Pods_Travanada2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Travanada2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		871CEA952282B2F40063451A /* DestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
+		871CEA972282B3080063451A /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		871CEB832282DB1F0063451A /* airport.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = airport.txt; sourceTree = "<group>"; };
+		87B0F4F02283F64F001F6F24 /* GMStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMStepper.swift; sourceTree = "<group>"; };
+		87C92F0722801AB00097FD93 /* Travanada2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travanada2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C92F0A22801AB00097FD93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87C92F0C22801AB00097FD93 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		87C92F0F22801AB00097FD93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87C92F1122801AC20097FD93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87C92F1422801AC20097FD93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87C92F1622801AC20097FD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87C92F1C228041F50097FD93 /* SourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceViewController.swift; sourceTree = "<group>"; };
+		87C92F2022805F800097FD93 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		E5A6D6084CAF0B0C75F9C459 /* Pods-Travanada2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travanada2.debug.xcconfig"; path = "Target Support Files/Pods-Travanada2/Pods-Travanada2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87C92F0422801AB00097FD93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513CE173FFC185F97BED60E6 /* Pods_Travanada2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87B0F4EF2283F64F001F6F24 /* GMStepper */ = {
+			isa = PBXGroup;
+			children = (
+				87B0F4F02283F64F001F6F24 /* GMStepper.swift */,
+			);
+			path = GMStepper;
+			sourceTree = "<group>";
+		};
+		87C92EFE22801AB00097FD93 = {
+			isa = PBXGroup;
+			children = (
+				87B0F4EF2283F64F001F6F24 /* GMStepper */,
+				87C92F0922801AB00097FD93 /* Travanada2 */,
+				87C92F0822801AB00097FD93 /* Products */,
+				E79B9A1115071746F0DB0D78 /* Pods */,
+				AD04AAF6AF79E8830E3AA48A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		87C92F0822801AB00097FD93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87C92F0722801AB00097FD93 /* Travanada2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87C92F0922801AB00097FD93 /* Travanada2 */ = {
+			isa = PBXGroup;
+			children = (
+				871CEB832282DB1F0063451A /* airport.txt */,
+				87C92F0A22801AB00097FD93 /* AppDelegate.swift */,
+				87C92F2022805F800097FD93 /* CalendarViewController.swift */,
+				87C92F0C22801AB00097FD93 /* HomeViewController.swift */,
+				87C92F1C228041F50097FD93 /* SourceViewController.swift */,
+				871CEA952282B2F40063451A /* DestinationViewController.swift */,
+				871CEA972282B3080063451A /* DetailsViewController.swift */,
+				87C92F0E22801AB00097FD93 /* Main.storyboard */,
+				87C92F1122801AC20097FD93 /* Assets.xcassets */,
+				87C92F1322801AC20097FD93 /* LaunchScreen.storyboard */,
+				87C92F1622801AC20097FD93 /* Info.plist */,
+			);
+			path = Travanada2;
+			sourceTree = "<group>";
+		};
+		AD04AAF6AF79E8830E3AA48A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75A8087E4E4ADB8B2EFF22C8 /* Pods_Travanada2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E79B9A1115071746F0DB0D78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5A6D6084CAF0B0C75F9C459 /* Pods-Travanada2.debug.xcconfig */,
+				2878B3634F58CB8B82AF9CC5 /* Pods-Travanada2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87C92F0622801AB00097FD93 /* Travanada2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87C92F1922801AC20097FD93 /* Build configuration list for PBXNativeTarget "Travanada2" */;
+			buildPhases = (
+				D5007CC85E2AE1E25D7E3B5E /* [CP] Check Pods Manifest.lock */,
+				87C92F0322801AB00097FD93 /* Sources */,
+				87C92F0422801AB00097FD93 /* Frameworks */,
+				87C92F0522801AB00097FD93 /* Resources */,
+				AF267D789E0B84771198F8D9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Travanada2;
+			productName = Travanada2;
+			productReference = 87C92F0722801AB00097FD93 /* Travanada2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87C92EFF22801AB00097FD93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = nibble;
+				TargetAttributes = {
+					87C92F0622801AB00097FD93 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 87C92F0222801AB00097FD93 /* Build configuration list for PBXProject "Travanada2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87C92EFE22801AB00097FD93;
+			productRefGroup = 87C92F0822801AB00097FD93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87C92F0622801AB00097FD93 /* Travanada2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87C92F0522801AB00097FD93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C92F1522801AC20097FD93 /* LaunchScreen.storyboard in Resources */,
+				87C92F1222801AC20097FD93 /* Assets.xcassets in Resources */,
+				87C92F1022801AB00097FD93 /* Main.storyboard in Resources */,
+				871CEB842282DB1F0063451A /* airport.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF267D789E0B84771198F8D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Travanada2/Pods-Travanada2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SearchTextField/SearchTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SearchTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Travanada2/Pods-Travanada2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5007CC85E2AE1E25D7E3B5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Travanada2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87C92F0322801AB00097FD93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C92F2122805F800097FD93 /* CalendarViewController.swift in Sources */,
+				87C92F0D22801AB00097FD93 /* HomeViewController.swift in Sources */,
+				87C92F0B22801AB00097FD93 /* AppDelegate.swift in Sources */,
+				87C92F1D228041F50097FD93 /* SourceViewController.swift in Sources */,
+				871CEA962282B2F40063451A /* DestinationViewController.swift in Sources */,
+				871CEA982282B3080063451A /* DetailsViewController.swift in Sources */,
+				87B0F4F12283F64F001F6F24 /* GMStepper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87C92F0E22801AB00097FD93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87C92F0F22801AB00097FD93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87C92F1322801AC20097FD93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87C92F1422801AC20097FD93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87C92F1722801AC20097FD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87C92F1822801AC20097FD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87C92F1A22801AC20097FD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5A6D6084CAF0B0C75F9C459 /* Pods-Travanada2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SearchTextField-master/Example/build/Debug-iphonesimulator",
+					"$(PROJECT_DIR)/SearchTextField-master/Example/build/Debug-iphonesimulator/SearchTextField",
+				);
+				INFOPLIST_FILE = Travanada2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nst.Travanada2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87C92F1B22801AC20097FD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2878B3634F58CB8B82AF9CC5 /* Pods-Travanada2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SearchTextField-master/Example/build/Debug-iphonesimulator",
+					"$(PROJECT_DIR)/SearchTextField-master/Example/build/Debug-iphonesimulator/SearchTextField",
+				);
+				INFOPLIST_FILE = Travanada2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nst.Travanada2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87C92F0222801AB00097FD93 /* Build configuration list for PBXProject "Travanada2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C92F1722801AC20097FD93 /* Debug */,
+				87C92F1822801AC20097FD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87C92F1922801AC20097FD93 /* Build configuration list for PBXNativeTarget "Travanada2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C92F1A22801AC20097FD93 /* Debug */,
+				87C92F1B22801AC20097FD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87C92EFF22801AB00097FD93 /* Project object */;
+}
