@@ -12,7 +12,7 @@ class SourceViewController: UITableViewController {
 
     var countryTextValue = ""
     
-    
+    var delegate: UpdateHomeViewControllerDelegate?
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -71,14 +71,14 @@ class SourceViewController: UITableViewController {
     
     // done button tapped function
     @IBAction func returnSourceTap(_ sender: Any) {
-        self.countryTextValue = countryTextField.text!
-        performSegue(withIdentifier: "returnsource", sender: self)
+        self.delegate?.updateSource(countryTextField.text!)
+        self.dismiss(animated: true, completion: nil)
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        var vc = segue.destination as! HomeViewController
-        vc.finalSource = self.countryTextValue
-    }
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        let vc = segue.destination as! HomeViewController
+//        vc.finalSource = self.countryTextValue
+//    }
     
     
     

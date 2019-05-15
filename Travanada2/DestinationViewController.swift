@@ -10,7 +10,7 @@ class DestinationViewController: UITableViewController {
     
     @IBOutlet weak var countryTextField2: SearchTextField!
     
-    
+    var delegate: UpdateHomeViewControllerDelegate?
     var countryTextValue2 = ""
     
     override func viewDidLoad() {
@@ -69,20 +69,12 @@ class DestinationViewController: UITableViewController {
         return []
     }
     
-
-    
-    
     
     @IBAction func doneBtnDestinationTap(_ sender: Any) {
-        self.countryTextValue2 = countryTextField2.text!
-        performSegue(withIdentifier: "returndestination", sender: self)
+        self.delegate?.updateDest(countryTextField2.text!)
+        self.dismiss(animated: true, completion: nil)
     }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        var vc2 = segue.destination as! HomeViewController
-        vc2.finalDestination = self.countryTextValue2
-    }
-    
+
     
     @IBAction func cancelBtnTap(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)

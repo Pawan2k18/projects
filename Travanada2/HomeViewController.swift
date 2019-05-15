@@ -8,6 +8,12 @@
 
 import UIKit
 
+protocol UpdateHomeViewControllerDelegate: class {
+    func updateSource(_ strSource: String)
+    func updateDest(_ strDestL: String)
+    func updateDetail(_ strDetail: String, _ intPassenger: String)
+}
+
 class HomeViewController: UIViewController, CalendarCallBack {
 
     var selectedDate = Date()
@@ -33,14 +39,14 @@ class HomeViewController: UIViewController, CalendarCallBack {
         if ViewOutlet.tag == 0
         {
             ViewOutlet.tag = 1
-            ViewOutlet.isHidden = false
+            ViewOutlet.isHidden = true
             flightBtn.setImage(UIImage(named: "flight.png"), for: .normal)
         }
             
         else if ViewOutlet.tag == 1
         {
             ViewOutlet.tag = 0
-            ViewOutlet.isHidden = true
+            ViewOutlet.isHidden = false
             flightBtn.setImage(UIImage(named: "flight-d.png"), for: .normal)
         }
     }
@@ -63,9 +69,7 @@ class HomeViewController: UIViewController, CalendarCallBack {
         
     }
     
-    
-    
-    
+  
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -76,6 +80,21 @@ class HomeViewController: UIViewController, CalendarCallBack {
 
     }
     
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier  == "ss" {
+            let vc = segue.destination as! SourceViewController
+            vc.delegate = self
+        }
+        else if segue.identifier  == "ds" {
+            let vc = segue.destination as! DestinationViewController
+            vc.delegate = self
+        }
+        else if segue.identifier  == "ps"{
+            let vc = segue.destination as! DetailsViewController
+            vc.delegate = self
+        }
+    }
     
     
     // func for date seletion
@@ -115,5 +134,37 @@ class HomeViewController: UIViewController, CalendarCallBack {
     
     
     
+    @IBAction func searchFlightBtn(_ sender: Any) {
+        print("Searching Flights...")
+        let source = sourceBtn.currentTitle!
+        print(source)
+        let dest = destinationBtn.currentTitle!
+        print(dest)
+        let detail = detailbtn.currentTitle!
+        print(detail)
+        let passenger = passengerLabel.text!
+        print(passenger)
+        
+    }
+    
+    
+    
+    
 }
 
+
+extension HomeViewController: UpdateHomeViewControllerDelegate {
+    
+    func updateDest(_ strDestL: String) {
+        destinationBtn.setTitle(strDestL, for: .normal)
+    }
+    
+    func updateSource(_ strSource: String) {
+        sourceBtn.setTitle(strSource, for: .normal)
+    }
+    
+    func updateDetail(_ strDetail: String, _ intPassenger: String) {
+        passengerLabel.text = (strDetail) + " Traveller"
+        detailbtn.setTitle(intPassenger, for: .normal)
+    }
+}
