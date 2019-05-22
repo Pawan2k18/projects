@@ -9,19 +9,6 @@
 import Foundation
 import SwiftyJSON
 
-//struct JsonModel {
-//    var total : String = ""
-//    var totalTaxes : String = ""
-//
-//    init(){
-//
-//    }
-//    init(json:JSON){
-//        total = json["total"].stringValue
-//        totalTaxes = json["totalTaxes"].stringValue
-//    }
-//}
-
 class DictData {
     var type = ""
     var id = ""
@@ -74,10 +61,8 @@ class DictServices{
             data.setdata(dictJson: dictSegments.dictionaryValue)
             self.arrsegments.append(data)
         }
-        
     }
 }
-
 
 class Price {
     var total = ""
@@ -132,7 +117,10 @@ class FlightSegment{
         carrierCode = dictJson["carrierCode"]?.stringValue ?? ""
         number = dictJson["number"]?.stringValue ?? ""
         duration = dictJson["duration"]?.stringValue ?? ""
+        departure.setdata(dictJson: dictJson["departure"]?.dictionaryValue ?? [:])
+        arrival.setdata(dictJson: dictJson["arrival"]?.dictionaryValue ?? [:])
     }
+  
 }
 
 // PARSING VALUES OF PricingDetailPerAdult

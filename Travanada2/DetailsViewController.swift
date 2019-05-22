@@ -21,11 +21,15 @@ class DetailsViewController: UIViewController {
     var childStepperVal = ""
     var infantsStepperVal = ""
 
-    var classTicketSegmentVal: String!
-    
+    var classTicketSegmentVal = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        adultStepperVal = "1"
+        childStepperVal = "0"
+        infantsStepperVal = "0"
+        classTicketSegmentVal = "ECONOMY"
         
         adultStepper.addTarget(self, action: #selector(DetailsViewController.adultStepperValueChanged), for: .valueChanged)
         
@@ -74,7 +78,8 @@ class DetailsViewController: UIViewController {
 
     
     @IBAction func seletedTicketType(_ sender: UISegmentedControl) {
-        classTicketSegmentVal = sender.titleForSegment(at: sender.selectedSegmentIndex)
+        classTicketSegmentVal = sender.titleForSegment(at: sender.selectedSegmentIndex)!
+        classTicketSegmentVal  = classTicketSegmentVal.uppercased()
     }
     
     @IBAction func cancelBtnDetailsTap(_ sender: Any) {
@@ -82,9 +87,14 @@ class DetailsViewController: UIViewController {
     }
     
     @IBAction func doneBtndetails(_ sender: Any) {
-        self.delegate?.updateDetail(adultStepperVal ,classTicketSegmentVal)
+        
+        self.delegate?.updateDetail(adultStepperVal, childStepperVal, infantsStepperVal, classTicketSegmentVal)
         self.dismiss(animated: true, completion: nil)
-       
+        
+        print(adultStepperVal)
+        print(childStepperVal)
+        print(infantsStepperVal)
+        print(classTicketSegmentVal)
     }
 
 }

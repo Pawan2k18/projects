@@ -10,9 +10,8 @@
 		513CE173FFC185F97BED60E6 /* Pods_Travanada2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A8087E4E4ADB8B2EFF22C8 /* Pods_Travanada2.framework */; };
 		871CEA962282B2F40063451A /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871CEA952282B2F40063451A /* DestinationViewController.swift */; };
 		871CEA982282B3080063451A /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871CEA972282B3080063451A /* DetailsViewController.swift */; };
-		871CEB842282DB1F0063451A /* airport.txt in Resources */ = {isa = PBXBuildFile; fileRef = 871CEB832282DB1F0063451A /* airport.txt */; };
-		874646F92286BBE5005D58BC /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874646F82286BBE5005D58BC /* Passenger.swift */; };
-		8794732D228A9DD600072175 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8794732C228A9DD500072175 /* TableViewCell.swift */; };
+		877A05F3228FE33300593132 /* StructModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A05F2228FE33200593132 /* StructModel.swift */; };
+		87A73C64228EEE3700279ECB /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A73C63228EEE3700279ECB /* GradientView.swift */; };
 		87B0F4F12283F64F001F6F24 /* GMStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B0F4F02283F64F001F6F24 /* GMStepper.swift */; };
 		87C92F0B22801AB00097FD93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C92F0A22801AB00097FD93 /* AppDelegate.swift */; };
 		87C92F0D22801AB00097FD93 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C92F0C22801AB00097FD93 /* HomeViewController.swift */; };
@@ -21,7 +20,13 @@
 		87C92F1522801AC20097FD93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C92F1322801AC20097FD93 /* LaunchScreen.storyboard */; };
 		87C92F1D228041F50097FD93 /* SourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C92F1C228041F50097FD93 /* SourceViewController.swift */; };
 		87C92F2122805F800097FD93 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C92F2022805F800097FD93 /* CalendarViewController.swift */; };
-		87F1F9BC228994CB0086F0D6 /* StoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F1F9BB228994CB0086F0D6 /* StoriesTableViewController.swift */; };
+		87DB4DC6229568D6007639C3 /* SeletedViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DB4DC5229568D6007639C3 /* SeletedViewTableViewCell.swift */; };
+		87DECBDE228C1AA300CEC527 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DECBDD228C1AA200CEC527 /* ResultViewController.swift */; };
+		87DECBE0228C1ADD00CEC527 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DECBDF228C1ADC00CEC527 /* TableViewCell.swift */; };
+		87DECBE2228C1B7F00CEC527 /* airport.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87DECBE1228C1B7F00CEC527 /* airport.txt */; };
+		87DECBE7228C1B8A00CEC527 /* AirportCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DECBE4228C1B8A00CEC527 /* AirportCode.swift */; };
+		87DECBE8228C1B8A00CEC527 /* JsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DECBE5228C1B8A00CEC527 /* JsonModel.swift */; };
+		87F06A262292CDFD00BB7677 /* SelectedRowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F06A252292CDFD00BB7677 /* SelectedRowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +34,8 @@
 		75A8087E4E4ADB8B2EFF22C8 /* Pods_Travanada2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Travanada2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		871CEA952282B2F40063451A /* DestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
 		871CEA972282B3080063451A /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
-		871CEB832282DB1F0063451A /* airport.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = airport.txt; sourceTree = "<group>"; };
-		874646F82286BBE5005D58BC /* Passenger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passenger.swift; sourceTree = "<group>"; };
-		8794732C228A9DD500072175 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		877A05F2228FE33200593132 /* StructModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructModel.swift; sourceTree = "<group>"; };
+		87A73C63228EEE3700279ECB /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		87B0F4F02283F64F001F6F24 /* GMStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMStepper.swift; sourceTree = "<group>"; };
 		87C92F0722801AB00097FD93 /* Travanada2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travanada2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C92F0A22801AB00097FD93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +46,13 @@
 		87C92F1622801AC20097FD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87C92F1C228041F50097FD93 /* SourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceViewController.swift; sourceTree = "<group>"; };
 		87C92F2022805F800097FD93 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
-		87F1F9BB228994CB0086F0D6 /* StoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesTableViewController.swift; sourceTree = "<group>"; };
+		87DB4DC5229568D6007639C3 /* SeletedViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeletedViewTableViewCell.swift; sourceTree = "<group>"; };
+		87DECBDD228C1AA200CEC527 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		87DECBDF228C1ADC00CEC527 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = ../../AlamofireWithSwiftyJSON/AlamofireWithSwiftyJSON/TableViewCell.swift; sourceTree = "<group>"; };
+		87DECBE1228C1B7F00CEC527 /* airport.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = airport.txt; sourceTree = "<group>"; };
+		87DECBE4228C1B8A00CEC527 /* AirportCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportCode.swift; sourceTree = "<group>"; };
+		87DECBE5228C1B8A00CEC527 /* JsonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonModel.swift; sourceTree = "<group>"; };
+		87F06A252292CDFD00BB7677 /* SelectedRowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedRowViewController.swift; sourceTree = "<group>"; };
 		E5A6D6084CAF0B0C75F9C459 /* Pods-Travanada2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travanada2.debug.xcconfig"; path = "Target Support Files/Pods-Travanada2/Pods-Travanada2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +79,7 @@
 		87C92EFE22801AB00097FD93 = {
 			isa = PBXGroup;
 			children = (
+				87DECBE1228C1B7F00CEC527 /* airport.txt */,
 				87B0F4EF2283F64F001F6F24 /* GMStepper */,
 				87C92F0922801AB00097FD93 /* Travanada2 */,
 				87C92F0822801AB00097FD93 /* Products */,
@@ -88,22 +99,34 @@
 		87C92F0922801AB00097FD93 /* Travanada2 */ = {
 			isa = PBXGroup;
 			children = (
-				871CEB832282DB1F0063451A /* airport.txt */,
-				8794732C228A9DD500072175 /* TableViewCell.swift */,
+				87DECBE3228C1B8A00CEC527 /* Model */,
 				87C92F0A22801AB00097FD93 /* AppDelegate.swift */,
+				87DECBDF228C1ADC00CEC527 /* TableViewCell.swift */,
 				87C92F2022805F800097FD93 /* CalendarViewController.swift */,
 				87C92F0C22801AB00097FD93 /* HomeViewController.swift */,
 				87C92F1C228041F50097FD93 /* SourceViewController.swift */,
 				871CEA952282B2F40063451A /* DestinationViewController.swift */,
 				871CEA972282B3080063451A /* DetailsViewController.swift */,
-				874646F82286BBE5005D58BC /* Passenger.swift */,
-				87F1F9BB228994CB0086F0D6 /* StoriesTableViewController.swift */,
+				87DECBDD228C1AA200CEC527 /* ResultViewController.swift */,
+				87F06A252292CDFD00BB7677 /* SelectedRowViewController.swift */,
+				87A73C63228EEE3700279ECB /* GradientView.swift */,
 				87C92F0E22801AB00097FD93 /* Main.storyboard */,
 				87C92F1122801AC20097FD93 /* Assets.xcassets */,
 				87C92F1322801AC20097FD93 /* LaunchScreen.storyboard */,
 				87C92F1622801AC20097FD93 /* Info.plist */,
+				87DB4DC5229568D6007639C3 /* SeletedViewTableViewCell.swift */,
 			);
 			path = Travanada2;
+			sourceTree = "<group>";
+		};
+		87DECBE3228C1B8A00CEC527 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				87DECBE4228C1B8A00CEC527 /* AirportCode.swift */,
+				87DECBE5228C1B8A00CEC527 /* JsonModel.swift */,
+				877A05F2228FE33200593132 /* StructModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		AD04AAF6AF79E8830E3AA48A /* Frameworks */ = {
@@ -186,7 +209,7 @@
 				87C92F1522801AC20097FD93 /* LaunchScreen.storyboard in Resources */,
 				87C92F1222801AC20097FD93 /* Assets.xcassets in Resources */,
 				87C92F1022801AB00097FD93 /* Main.storyboard in Resources */,
-				871CEB842282DB1F0063451A /* airport.txt in Resources */,
+				87DECBE2228C1B7F00CEC527 /* airport.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,13 +225,19 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Travanada2/Pods-Travanada2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SearchTextField/SearchTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SearchTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -244,16 +273,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87F06A262292CDFD00BB7677 /* SelectedRowViewController.swift in Sources */,
+				87DECBE7228C1B8A00CEC527 /* AirportCode.swift in Sources */,
 				87C92F2122805F800097FD93 /* CalendarViewController.swift in Sources */,
+				87A73C64228EEE3700279ECB /* GradientView.swift in Sources */,
 				87C92F0D22801AB00097FD93 /* HomeViewController.swift in Sources */,
-				874646F92286BBE5005D58BC /* Passenger.swift in Sources */,
+				87DECBE8228C1B8A00CEC527 /* JsonModel.swift in Sources */,
 				87C92F0B22801AB00097FD93 /* AppDelegate.swift in Sources */,
+				87DECBDE228C1AA300CEC527 /* ResultViewController.swift in Sources */,
+				87DB4DC6229568D6007639C3 /* SeletedViewTableViewCell.swift in Sources */,
 				87C92F1D228041F50097FD93 /* SourceViewController.swift in Sources */,
-				8794732D228A9DD600072175 /* TableViewCell.swift in Sources */,
 				871CEA962282B2F40063451A /* DestinationViewController.swift in Sources */,
+				877A05F3228FE33300593132 /* StructModel.swift in Sources */,
 				871CEA982282B3080063451A /* DetailsViewController.swift in Sources */,
+				87DECBE0228C1ADD00CEC527 /* TableViewCell.swift in Sources */,
 				87B0F4F12283F64F001F6F24 /* GMStepper.swift in Sources */,
-				87F1F9BC228994CB0086F0D6 /* StoriesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

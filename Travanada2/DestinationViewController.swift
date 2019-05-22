@@ -56,7 +56,7 @@ class DestinationViewController: UITableViewController {
                 
                 var countryNames = [String]()
                 for country in jsonResult {
-                    let first = country["IATAcode"]! + ", " + country["CityName"]! + ", " + country["CountryCode"]!
+                    let first = country["IATAcode"]! + ", " + country["Airport"]! + ", " + country["CountryCode"]!
                     countryNames.append(first)
                 }
                 

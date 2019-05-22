@@ -11,28 +11,31 @@ import UIKit
 protocol UpdateHomeViewControllerDelegate: class {
     func updateSource(_ strSource: String)
     func updateDest(_ strDestL: String)
-    func updateDetail(_ strDetail: String, _ intPassenger: String)
+    func updateDetail(_ strAdult: String, _ strChild: String, _ strInfant: String, _ strClasstype: String)
 }
 
 class HomeViewController: UIViewController, CalendarCallBack {
-
+    let dollarSign = "\u{24}" 
     var selectedDate = Date()
     let classtype = ["One Way", "Round Trip"]
     
     @IBOutlet weak var classSegment: UISegmentedControl!
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var ViewOutlet: UIView!
-    
     @IBOutlet weak var passengerLabel: UILabel!
     @IBOutlet weak var sourceBtn: UIButton!
     @IBOutlet weak var destinationBtn: UIButton!
     @IBOutlet weak var detailbtn: UIButton!
     @IBOutlet weak var flightBtn: UIButton!
     @IBOutlet weak var hotelBtn: UIButton!
-    
+    @IBOutlet weak var searchBtn: UIButton!
+
     var finalSource = ""
     var finalDestination = ""
     var adultval = ""
+    var childval = ""
+    var infantval = ""
+    var ticketClass = ""
     
     @IBAction func flightTap(_ sender: UIButton) {
 
@@ -40,14 +43,15 @@ class HomeViewController: UIViewController, CalendarCallBack {
         {
             ViewOutlet.tag = 1
             ViewOutlet.isHidden = true
-            flightBtn.setImage(UIImage(named: "flight.png"), for: .normal)
+            flightBtn.setImage(UIImage(named: "flight-d.png"), for: .normal)
         }
             
         else if ViewOutlet.tag == 1
         {
             ViewOutlet.tag = 0
             ViewOutlet.isHidden = false
-            flightBtn.setImage(UIImage(named: "flight-d.png"), for: .normal)
+            flightBtn.setImage(UIImage(named: "flight.png"), for: .normal)
+            
         }
     }
     
@@ -65,21 +69,33 @@ class HomeViewController: UIViewController, CalendarCallBack {
              hotelBtn.tag = 0
             hotelBtn.setImage(UIImage(named: "hotel-d.png"), for: .normal)
         }
-        
-        
     }
     
-  
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       
+        sourceBtn.layer.borderWidth = 1
+        sourceBtn.layer.borderColor = UIColor.lightGray.cgColor
+        sourceBtn.layer.cornerRadius = 10
+        sourceBtn.layer.shadowRadius = 1
+        sourceBtn.layer.shadowColor = UIColor.lightGray.cgColor
         
+        destinationBtn.layer.borderWidth = 1
+        destinationBtn.layer.borderColor = UIColor.lightGray.cgColor
+        destinationBtn.layer.cornerRadius = 10
+        destinationBtn.layer.shadowColor = UIColor.lightGray.cgColor
+        
+        settingData()
+        
+    }
+    
+    func settingData(){
         sourceBtn.setTitle(finalSource, for: .normal)
         destinationBtn.setTitle(finalDestination, for: .normal)
         detailbtn.setTitle(adultval, for: .normal)
-
     }
-    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier  == "ss" {
@@ -93,6 +109,16 @@ class HomeViewController: UIViewController, CalendarCallBack {
         else if segue.identifier  == "ps"{
             let vc = segue.destination as! DetailsViewController
             vc.delegate = self
+        }
+        else if(segue.identifier == "resultsegue"){
+            let displayVC = segue.destination as! ResultViewController
+            displayVC.mySource = sourceBtn.currentTitle!
+            displayVC.myDest = destinationBtn.currentTitle!
+            displayVC.myAdult = adultval
+            displayVC.myChild = childval
+            displayVC.myInfant = infantval
+            displayVC.myTickettype = ticketClass
+            displayVC.myDate = dateLabel.text!
         }
     }
     
@@ -111,6 +137,7 @@ class HomeViewController: UIViewController, CalendarCallBack {
         selectedDate = date
         dateLabel.isHidden = false
         dateLabel.text = date.getTitleDateFC()
+        print("date is- \(dateLabel.text!)")
     }
     
     
@@ -135,22 +162,11 @@ class HomeViewController: UIViewController, CalendarCallBack {
     
     
     @IBAction func searchFlightBtn(_ sender: Any) {
-        print("Searching Flights...")
-        let source = sourceBtn.currentTitle!
-        print(source)
-        let dest = destinationBtn.currentTitle!
-        print(dest)
-        let detail = detailbtn.currentTitle!
-        print(detail)
-        let passenger = passengerLabel.text!
-        print(passenger)
-        
+        self.performSegue(withIdentifier: "resultsegue", sender: self)
+
+        }
     }
     
-    
-    
-    
-}
 
 
 extension HomeViewController: UpdateHomeViewControllerDelegate {
@@ -163,8 +179,25 @@ extension HomeViewController: UpdateHomeViewControllerDelegate {
         sourceBtn.setTitle(strSource, for: .normal)
     }
     
-    func updateDetail(_ strDetail: String, _ intPassenger: String) {
-        passengerLabel.text = (strDetail) + " Traveller"
-        detailbtn.setTitle(intPassenger, for: .normal)
+    func updateDetail(_ strAdult: String, _ strChild: String, _ strInfant: String, _ strClasstype: String) {
+        adultval = strAdult
+        childval = strChild
+        infantval = strInfant
+        ticketClass = strClasstype
+        
+        passengerLabel.text = (strAdult) + "+" + (strChild) + "+" + (strInfant) + " Traveller"
+        detailbtn.setTitle(strClasstype, for: .normal)
     }
 }
+
+//extension UIButton{
+//    func applyButtonDesgin(){
+//        self.backgroundColor = UIColor.darkGray
+//        self.layer.cornerRadius = self.frame.height / 2
+//        self.setTitleColor(UIColor.white, for: .normal)
+//        self.layer.shadowColor = UIColor.darkGray.cgColor
+//        self.layer.shadowRadius = 6
+//        self.layer.shadowOpacity = 0.5
+//        self.layer.shadowOffset = CGSize(width: 0, height: 0)
+//    }
+//}
