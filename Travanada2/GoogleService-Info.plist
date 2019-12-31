@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>477049967915-c6uf4675qgu5skc7bvrq95hkf0lmbhs3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.477049967915-c6uf4675qgu5skc7bvrq95hkf0lmbhs3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCuPT5HvQCjY0DdzbTVIYvxeB3E1V15FRM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>477049967915</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.nst.Travanada2</string>
+	<key>PROJECT_ID</key>
+	<string>travanada-c1cb3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>travanada-c1cb3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:477049967915:ios:a4ca72e427593794</string>
+	<key>DATABASE_URL</key>
+	<string>https://travanada-c1cb3.firebaseio.com</string>
+</dict>
+</plist>
