@@ -70,7 +70,7 @@ class CustomTestingClass: UIViewController, CalendarCallBack {
         print("pressed back button not via segue")
         // Perform your custom actions
         
-        StructOperation.glovalVariable.userName = "fromBack"
+        //StructOperation.glovalVariable.userName = "fromBack"
         
         // Go back to the previous ViewController
         _ = navigationController?.popViewController(animated: true)
@@ -185,14 +185,14 @@ class CustomTestingClass: UIViewController, CalendarCallBack {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let customToDetail = segue.destination as! DetailsViewController
-        customToDetail.originVal = countryTextField.text!
-        customToDetail.destinationVal = destinationSearch.text!
-        customToDetail.journeyDate = date1.currentTitle!
-        customToDetail.returnDate = date2.currentTitle!
-        customToDetail.journeyDay = journeyDay.currentTitle!
-        customToDetail.returnDay = returnDay.currentTitle!
-        customToDetail.tripType = tripSelectionVal
-        customToDetail.counter = true
+//        customToDetail.originVal = countryTextField.text!
+//        customToDetail.destinationVal = destinationSearch.text!
+//        customToDetail.journeyDate = date1.currentTitle!
+//        customToDetail.returnDate = date2.currentTitle!
+//        customToDetail.journeyDay = journeyDay.currentTitle!
+//        customToDetail.returnDay = returnDay.currentTitle!
+//        customToDetail.tripType = tripSelectionVal
+//        customToDetail.counter = true
     }
     
     

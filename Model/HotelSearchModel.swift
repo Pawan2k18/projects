@@ -13,6 +13,7 @@ import SwiftyJSON
 class HotelSearch {
     var type = ""
     var available = ""
+    var selfurl = ""
     
     var hotel = Hotel()
     var arrOffers = [Offers]()
@@ -23,6 +24,7 @@ class HotelSearch {
     func setdata(dictJson: [String: JSON]) {
         type = dictJson["type"]?.stringValue ?? ""
         available = dictJson["available"]?.stringValue ?? ""
+        selfurl = dictJson["self"]?.stringValue ?? ""
         hotel.setdata(dictJson: dictJson["hotel"]?.dictionaryValue ?? [:])
         
         for dictOffer in dictJson["offers"]!.arrayValue {
@@ -42,7 +44,7 @@ class Offers {
     //var description = Description()
      //var room = Room()
      //var guests = Guests()
-     //var price = Price()
+     var price = Price2()
     
     init(){
     }
@@ -59,7 +61,7 @@ class Offers {
         
         //guests.setdata(dictJson: dictJson["guests"]?.dictionaryValue ?? [:])
 
-        //price.setdata(dictJson: dictJson["price"]?.dictionaryValue ?? [:])
+        price.setdata(dictJson: dictJson["price"]?.dictionaryValue ?? [:])
         
     }
     
@@ -79,11 +81,11 @@ class Hotel {
     var cityCode = ""
     var latitude = ""
     var longitude = ""
-    //var hotelDistance = HotelDistance()
+    var hotelDistance = HotelDistance()
     var address = Address()
-    //var contact = Contact()
-    //var hotelDescription = Description()
-    var amenities = ""
+    var contact = Contact()
+    var description = Description()
+    //var amenities = [Amenities]
     //var media = [Media]()
     
     init(){
@@ -93,6 +95,7 @@ class Hotel {
         type = dictJson["type"]?.stringValue ?? ""
         hotelId = dictJson["hotelId"]?.stringValue ?? ""
         chainCode = dictJson["chainCode"]?.stringValue ?? ""
+        brandCode = dictJson["brandCode"]?.stringValue ?? ""
         dupeID = dictJson["dupeID"]?.stringValue ?? ""
         name = dictJson["name"]?.stringValue ?? ""
         rating = dictJson["rating"]?.stringValue ?? ""
@@ -101,6 +104,20 @@ class Hotel {
         longitude = dictJson["longitude"]?.stringValue ?? ""
         
         address.setdata(dictJson: dictJson["address"]?.dictionaryValue ?? [:])
+        contact.setdata(dictJson: dictJson["contact"]?.dictionaryValue ?? [:])
+        description.setdata(dictJson: dictJson["description"]?.dictionaryValue ?? [:])
+        
+//        for dictAmenities in dictJson["amenities"]!.arrayValue {
+//            let data = Amenities()
+//            data.setdata(dictJson: dictAmenities.dictionaryValue)
+//            self.amenities.append(data)
+//        }
+        
+//        for dictMedia in dictJson["media"]!.arrayValue {
+//            let data = Media()
+//            data.setdata(dictJson: dictMedia.dictionaryValue)
+//            self.media.append(data)
+//        }
     }
 }
 
@@ -131,10 +148,39 @@ class Description {
     init(){
         
     }
+    func setdata(dictJson: [String: JSON]){
+        lang = dictJson["lang"]?.stringValue ?? ""
+        text = dictJson["text"]?.stringValue ?? ""
+    }
     
 }
 
+class Contact{
+    var phone = ""
+    var fax = ""
+    
+    init(){
+        
+    }
+    func setdata(dictJson: [String: JSON]){
+        phone = dictJson["phone"]?.stringValue ?? ""
+        fax = dictJson["fax"]?.stringValue ?? ""
+    }
+}
 
+// MARK: - Media
+class Media {
+    var uri = ""
+    var category = ""
+
+    init() {
+    }
+    
+    func setdata(dictJson: [String: JSON]){
+        uri = dictJson["uri"]?.stringValue ?? ""
+        category = dictJson["category"]?.stringValue ?? ""
+    }
+}
 
 
 //
@@ -169,21 +215,24 @@ class Description {
 //    case langEN
 //}
 //
-//// MARK: - HotelDistance
-//class HotelDistance {
-//    let distance: Double
-//    let distanceUnit: DistanceUnit
-//
-//    init(distance: Double, distanceUnit: DistanceUnit) {
-//        self.distance = distance
-//        self.distanceUnit = distanceUnit
-//    }
-//}
-//
+// MARK: - HotelDistance
+class HotelDistance {
+    var distance = ""
+    var distanceUnit = ""
+
+    init(){
+    }
+    
+    func setdata(dictJson: [String: JSON]){
+        distance = dictJson["distance"]?.stringValue ?? ""
+        distanceUnit = dictJson["distanceUnit"]?.stringValue ?? ""
+    }
+}
+
 //enum DistanceUnit {
 //    case km
 //}
-//
+
 //// MARK: - Media
 //class Media {
 //    let uri: String
@@ -317,25 +366,27 @@ class Description {
 //    }
 //}
 //
-//// MARK: - Price
-//class Price {
-//    let currency: Currency
-//    let total: String
-//    let variations: Variations
-//    let base: String?
-//
-//    init(currency: Currency, total: String, variations: Variations, base: String?) {
-//        self.currency = currency
-//        self.total = total
-//        self.variations = variations
-//        self.base = base
-//    }
-//}
-//
+
+
+ //MARK: - Price
+class Price2 {
+    var currency = ""
+    var base = ""
+    var total = ""
+    init(){
+    }
+    
+    func setdata(dictJson: [String: JSON]){
+        currency = dictJson["currency"]?.stringValue ?? ""
+        base = dictJson["base"]?.stringValue ?? ""
+        total = dictJson["total"]?.stringValue ?? ""
+    }
+}
+
 //enum Currency {
 //    case eur
 //}
-//
+
 //// MARK: - Variations
 //class Variations {
 //    let average: Average?

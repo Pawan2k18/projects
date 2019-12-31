@@ -7,16 +7,6 @@
 //
 
 import Foundation
-
-
-
-//
-//  iOSDropDown.swift
-//
-//
-//  Created by Jishnu Raj T on 26/04/18.
-//  Copyright © 2018 JRiOSdev. All rights reserved.
-//
 import UIKit
 
 open class DropDown : UITextField{
@@ -241,9 +231,9 @@ open class DropDown : UITextField{
         if height < (keyboardHeight+tableheightX){
             y = self.pointToParent.y - tableheightX
         }
-        UIView.animate(withDuration: 0.9,
+        UIView.animate(withDuration: 0.3,
                        delay: 0,
-                       usingSpringWithDamping: 0.4,
+                       usingSpringWithDamping: 0.2,
                        initialSpringVelocity: 0.1,
                        options: .curveEaseInOut,
                        animations: { () -> Void in
@@ -269,9 +259,9 @@ open class DropDown : UITextField{
     
     public func hideList() {
         TableWillDisappearCompletion()
-        UIView.animate(withDuration: 1.0,
-                       delay: 0.4,
-                       usingSpringWithDamping: 0.9,
+        UIView.animate(withDuration: 0.2,
+                       delay: 0,
+                       usingSpringWithDamping: 0.2,
                        initialSpringVelocity: 0.1,
                        options: .curveEaseInOut,
                        animations: { () -> Void in
@@ -310,7 +300,7 @@ open class DropDown : UITextField{
         }
         UIView.animate(withDuration: 0.2,
                        delay: 0.1,
-                       usingSpringWithDamping: 0.9,
+                       usingSpringWithDamping: 0.2,
                        initialSpringVelocity: 0.1,
                        options: .curveEaseInOut,
                        animations: { () -> Void in

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Foundation
 
 class TableViewCell: UITableViewCell {
 
@@ -21,14 +22,18 @@ class TableViewCell: UITableViewCell {
     @IBOutlet weak var labelTotalFare: UILabel!
     @IBOutlet weak var oneview: UIView!
     
-    
+    var viewController : UIViewController?
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-  
+
         oneview?.layer.cornerRadius = 5.0
         oneview?.layer.masksToBounds = true
+        
+        
+        
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -36,4 +41,6 @@ class TableViewCell: UITableViewCell {
         
     }
 
+
+    
 }

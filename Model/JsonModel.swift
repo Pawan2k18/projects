@@ -9,6 +9,18 @@
 import Foundation
 import SwiftyJSON
 
+class Meta {
+    var currency = ""
+    
+    init(){
+    }
+    
+    func setdata(dictJson: [String: JSON]) {
+        currency = dictJson["currency"]?.stringValue ?? ""
+    }
+}
+
+
 class DictData {
     var type = ""
     var id = ""

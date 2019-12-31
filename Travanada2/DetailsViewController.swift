@@ -8,7 +8,15 @@
 
 import UIKit
 
+protocol DataPass3{
+    func dataPassing3(adult: String, child: String, infant: String, classType: String)
+}
+
+
 class DetailsViewController: UIViewController {
+    
+       var delegate3:DataPass3!
+    
     
     @IBOutlet weak var adultStepper: GMStepper!
     @IBOutlet weak var childStepper: GMStepper!
@@ -20,28 +28,10 @@ class DetailsViewController: UIViewController {
     var infantsStepperVal = ""
     var ticketTypeVal = ""
     
-    // getting all data from previus view (CustomTestingClass) and initiliazing here:
-    var originVal = ""
-    var destinationVal = ""
-    var journeyDate = ""
-    var returnDate = ""
-    var journeyDay = ""
-    var returnDay = ""
-    var tripType = ""
-    var counter = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationItem.hidesBackButton = true
-        let newBackButton = UIBarButtonItem(title: "Back", style: UIBarButtonItemStyle.plain, target: self, action: #selector(CustomTestingClass.back(sender:)))
-        self.navigationItem.leftBarButtonItem = newBackButton
-        
-        
-        let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
-        backgroundImage.image = UIImage(named: "Rectangle-4")
-        backgroundImage.contentMode = UIViewContentMode.scaleAspectFill
-        self.view.insertSubview(backgroundImage, at: 0)
         
         adultStepperVal = "1"
         childStepperVal = "0"
@@ -54,17 +44,6 @@ class DetailsViewController: UIViewController {
         
         infantsStepper.addTarget(self, action: #selector(DetailsViewController.infantsStepperValueChanged), for: .valueChanged)
         
-    }
-    
-    @objc func back(sender: UIBarButtonItem) {
-        
-        print("pressed back button not via segue")
-        // Perform your custom actions
-        
-        StructOperation.glovalVariable.userName = "fromBack"
-        
-        // Go back to the previous ViewController
-        _ = navigationController?.popViewController(animated: true)
     }
     
 
@@ -112,44 +91,13 @@ class DetailsViewController: UIViewController {
     }
     
     
-    @IBAction func cancelBtnDetailsTap(_ sender: Any) {
-       _ = navigationController?.popViewController(animated: true) //navigationController?.popViewController(animated: true)
-       // self.dismiss(animated: true, completion: nil)
-    }
-
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier  == "detToHome" {
-            let navController = segue.destination as! UINavigationController
-            let displayVC = navController.topViewController as! HomeViewController
-            displayVC.data = "tappedOk"
-            displayVC.counter = true
-        }
-    }
-        
-    
     
     @IBAction func doneBtndetails(_ sender: Any) {
-        
-        performSegue(withIdentifier: "detToHome", sender: self)
-        StructOperation.glovalVariable.userName = "fromDone"
-        //self.dismiss(animated: true, completion: nil)
-       
-        
-     let defaults = UserDefaults.standard
-     let flightData = ["origin" : originVal,
-                       "destination" : destinationVal,
-                       "journeyDate" : journeyDate,
-                       "returnDate" : returnDate,
-                       "journeyDay" : journeyDay,
-                       "returnDay" : returnDay,
-                       "tripType" : tripType,
-                       "totalAdult" : adultStepperVal,
-                       "totalChild" : childStepperVal,
-                       "totalInfant" : infantsStepperVal,
-                       "ticketType" : ticketTypeVal ]
     
-        defaults.set(flightData, forKey: "SavedFlightData")
+        delegate3.dataPassing3(adult: adultStepperVal, child: childStepperVal, infant: infantsStepperVal, classType: ticketTypeVal)
+        
+        navigationController?.popViewController(animated: true)
+        dismiss(animated: true, completion: nil)
 
     }
 }

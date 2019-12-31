@@ -63,6 +63,12 @@ extension Date {
         dateFormatter.dateFormat = "YYYY-MM-dd"
         return dateFormatter.string(from: self)
     }
+    
+    func getTitleDay() -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "EE"
+        return dateFormatter.string(from: self)
+    }
 }
 
 extension UIView {
@@ -153,7 +159,7 @@ class CalendarViewController: UIViewController, UICollectionViewDataSource, UICo
         
         year.text = selectedDate.getYearOnlyFC()
         date.text = selectedDate.getTitleDateFC()
-        
+       
         // Do any additional setup after loading the view, typically from a nib.
     }
     
@@ -205,31 +211,31 @@ class CalendarViewController: UIViewController, UICollectionViewDataSource, UICo
                 var dayname = ""
                 switch (indexPath.row){
                 case 0:
-                    dayname = "S"
+                    dayname = "Sun"
                     break
                     
                 case 1:
-                    dayname = "M"
+                    dayname = "Mon"
                     break
                     
                 case 2:
-                    dayname = "T"
+                    dayname = "Tue"
                     break
                     
                 case 3:
-                    dayname = "W"
+                    dayname = "Wed"
                     break
                     
                 case 4:
-                    dayname = "T"
+                    dayname = "Thu"
                     break
                     
                 case 5:
-                    dayname = "F"
+                    dayname = "Fri"
                     break
                     
                 case 6:
-                    dayname = "S"
+                    dayname = "Sat"
                     break
                     
                 default:
@@ -242,7 +248,7 @@ class CalendarViewController: UIViewController, UICollectionViewDataSource, UICo
             }
         }
         cell.viewWithTag(2)?.isHidden = true
-        cell.viewWithTag(2)?.layer.cornerRadius = (cell.viewWithTag(2)?.frame.size.width)!/2
+        cell.viewWithTag(2)?.layer.cornerRadius = (cell.viewWithTag(2)?.frame.size.width)!
         if(selectedIndex != nil){
             if(selectedIndex == indexPath){
                 cell.viewWithTag(2)?.isHidden = false

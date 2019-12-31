@@ -1,0 +1,969 @@
+2019-07-08 12:29:35 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f92ff499af0; archive(resolved)='<IDEArchive: 0x7f931070e730>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f92fe7085e0>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9317d9f680; teamID='CFZ9279PJX', teamName='Ketan  Dosi', teamType='Individual', username='ketan.dosi@yahoo.com', isFreeProvisioningTeam='0'>'>
+	Chain (12, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f92ff499af0; archive = '<IDEArchive: 0x7f931070e730>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f92fe7085e0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9317d9f680; teamID='CFZ9279PJX', teamName='Ketan  Dosi', teamType='Individual', username='ketan.dosi@yahoo.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7f9300e13b00; archive = '<IDEArchive: 0x7f931070e730>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f92fe7085e0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9317d9f680; teamID='CFZ9279PJX', teamName='Ketan  Dosi', teamType='Individual', username='ketan.dosi@yahoo.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f9300ee2950; archive = '<IDEArchive: 0x7f931070e730>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f92fe7085e0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9317d9f680; teamID='CFZ9279PJX', teamName='Ketan  Dosi', teamType='Individual', username='ketan.dosi@yahoo.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f92fce8beb0; archive = '<IDEArchive: 0x7f931070e730>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f92fe7085e0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9317d9f680; teamID='CFZ9279PJX', teamName='Ketan  Dosi', teamType='Individual', username='ketan.dosi@yahoo.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f930308beb0; archive = '<IDEArchive: 0x7f931070e730>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f92fe7085e0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9317d9f680; teamID='CFZ9279PJX', teamName='Ketan  Dosi', teamType='Individual', username='ketan.dosi@yahoo.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f93030260d0; archive = '<IDEArchive: 0x7f931070e730>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f92fe7085e0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9317d9f680; teamID='CFZ9279PJX', teamName='Ketan  Dosi', teamType='Individual', username='ketan.dosi@yahoo.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f9300ee2c30; archive = '<IDEArchive: 0x7f931070e730>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f92fe7085e0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9317d9f680; teamID='CFZ9279PJX', teamName='Ketan  Dosi', teamType='Individual', username='ketan.dosi@yahoo.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f9300ee2ac0; archive = '<IDEArchive: 0x7f931070e730>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f92fe7085e0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9317d9f680; teamID='CFZ9279PJX', teamName='Ketan  Dosi', teamType='Individual', username='ketan.dosi@yahoo.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f9300ee0260; archive = '<IDEArchive: 0x7f931070e730>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f92fe7085e0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9317d9f680; teamID='CFZ9279PJX', teamName='Ketan  Dosi', teamType='Individual', username='ketan.dosi@yahoo.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f930319ba80; archive = '<IDEArchive: 0x7f931070e730>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f92fe7085e0>', team='(null)'>
+	<IDEDistributionContext: 0x7f92fce4a2c0; archive = '<IDEArchive: 0x7f931070e730>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f92fe7085e0>', team='(null)'>
+	<IDEDistributionContext: 0x7f93032633f0; archive = '<IDEArchive: 0x7f931070e730>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7f92ff499af0>
+2019-07-08 12:29:35 +0000  Processing step: IDEDistributionCreateDestRootStep
+2019-07-08 12:29:35 +0000  Processing step: IDEDistributionCopyItemStep
+2019-07-08 12:29:35 +0000  Running /usr/bin/ditto '-V' '/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app'
+2019-07-08 12:29:35 +0000  >>> Copying /Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app 
+copying file ./_CodeSignature/CodeResources ... 
+46900 bytes for ./_CodeSignature/CodeResources
+copying file ./Travanada2 ... 
+2019-07-08 12:29:36 +0000  39078864 bytes for ./Travanada2
+copying file ./AppIcon20x20@2x.png ... 
+4265 bytes for ./AppIcon20x20@2x.png
+copying file ./AppIcon20x20@3x.png ... 
+2019-07-08 12:29:36 +0000  6296 bytes for ./AppIcon20x20@3x.png
+copying file ./AppIcon60x60@2x.png ... 
+13411 bytes for ./AppIcon60x60@2x.png
+copying file ./AppIcon29x29@2x.png ... 
+6126 bytes for ./AppIcon29x29@2x.png
+copying file ./AppIcon40x40@3x.png ... 
+13411 bytes for ./AppIcon40x40@3x.png
+copying file ./AppIcon29x29~ipad.png ... 
+3192 bytes for ./AppIcon29x29~ipad.png
+copying file ./AppIcon40x40@2x.png ... 
+8912 bytes for ./AppIcon40x40@2x.png
+copying file ./AppIcon29x29@3x.png ... 
+9661 bytes for ./AppIcon29x29@3x.png
+copying file ./GoogleService-Info.plist ... 
+721 bytes for ./GoogleService-Info.plist
+copying file ./AppIcon60x60@3x.png ... 
+20413 bytes for ./AppIcon60x60@3x.png
+2019-07-08 12:29:36 +0000  copying file ./Base.lproj/Main.storyboardc/Kml-hA-54y-view-0kS-i2-jvS.nib/objects-11.0+.nib ... 
+2019-07-08 12:29:36 +0000  3072 bytes for ./Base.lproj/Main.storyboardc/Kml-hA-54y-view-0kS-i2-jvS.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/Kml-hA-54y-view-0kS-i2-jvS.nib/runtime.nib ... 
+2019-07-08 12:29:36 +0000  3072 bytes for ./Base.lproj/Main.storyboardc/Kml-hA-54y-view-0kS-i2-jvS.nib/runtime.nib
+2019-07-08 12:29:36 +0000  copying file ./Base.lproj/Main.storyboardc/Hvt-V1-1i1-view-5hw-Ho-aM7.nib/objects-11.0+.nib ... 
+13641 bytes for ./Base.lproj/Main.storyboardc/Hvt-V1-1i1-view-5hw-Ho-aM7.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/Hvt-V1-1i1-view-5hw-Ho-aM7.nib/runtime.nib ... 
+13777 bytes for ./Base.lproj/Main.storyboardc/Hvt-V1-1i1-view-5hw-Ho-aM7.nib/runtime.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-dWu-VX-uc4.nib/objects-11.0+.nib ... 
+1967 bytes for ./Base.lproj/Main.storyboardc/UIViewController-dWu-VX-uc4.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-dWu-VX-uc4.nib/runtime.nib ... 
+2019-07-08 12:29:36 +0000  1967 bytes for ./Base.lproj/Main.storyboardc/UIViewController-dWu-VX-uc4.nib/runtime.nib
+copying file ./Base.lproj/Main.storyboardc/DetailsViewController.nib/objects-11.0+.nib ... 
+2019-07-08 12:29:36 +0000  1620 bytes for ./Base.lproj/Main.storyboardc/DetailsViewController.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/DetailsViewController.nib/runtime.nib ... 
+2019-07-08 12:29:36 +0000  1620 bytes for ./Base.lproj/Main.storyboardc/DetailsViewController.nib/runtime.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-0Qa-6l-m4m.nib/objects-11.0+.nib ... 
+1515 bytes for ./Base.lproj/Main.storyboardc/UIViewController-0Qa-6l-m4m.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-0Qa-6l-m4m.nib/runtime.nib ... 
+1515 bytes for ./Base.lproj/Main.storyboardc/UIViewController-0Qa-6l-m4m.nib/runtime.nib
+copying file ./Base.lproj/Main.storyboardc/UINavigationController-VM0-CX-zXi.nib/objects-11.0+.nib ... 
+2359 bytes for ./Base.lproj/Main.storyboardc/UINavigationController-VM0-CX-zXi.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/UINavigationController-VM0-CX-zXi.nib/runtime.nib ... 
+2359 bytes for ./Base.lproj/Main.storyboardc/UINavigationController-VM0-CX-zXi.nib/runtime.nib
+copying file ./Base.lproj/Main.storyboardc/aZc-62-EgE-view-pmw-UN-vcx.nib/objects-11.0+.nib ... 
+9384 bytes for ./Base.lproj/Main.storyboardc/aZc-62-EgE-view-pmw-UN-vcx.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/aZc-62-EgE-view-pmw-UN-vcx.nib/runtime.nib ... 
+8920 bytes for ./Base.lproj/Main.storyboardc/aZc-62-EgE-view-pmw-UN-vcx.nib/runtime.nib
+2019-07-08 12:29:36 +0000  copying file ./Base.lproj/Main.storyboardc/Xja-Ij-ZYL-view-8h2-sq-JsJ.nib/objects-11.0+.nib ... 
+2019-07-08 12:29:36 +0000  6375 bytes for ./Base.lproj/Main.storyboardc/Xja-Ij-ZYL-view-8h2-sq-JsJ.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/Xja-Ij-ZYL-view-8h2-sq-JsJ.nib/runtime.nib ... 
+2019-07-08 12:29:36 +0000  6378 bytes for ./Base.lproj/Main.storyboardc/Xja-Ij-ZYL-view-8h2-sq-JsJ.nib/runtime.nib
+copying file ./Base.lproj/Main.storyboardc/dWu-VX-uc4-view-ifG-rJ-PPY.nib/objects-11.0+.nib ... 
+6842 bytes for ./Base.lproj/Main.storyboardc/dWu-VX-uc4-view-ifG-rJ-PPY.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/dWu-VX-uc4-view-ifG-rJ-PPY.nib/runtime.nib ... 
+6378 bytes for ./Base.lproj/Main.storyboardc/dWu-VX-uc4-view-ifG-rJ-PPY.nib/runtime.nib
+copying file ./Base.lproj/Main.storyboardc/HomeViewController.nib/objects-11.0+.nib ... 
+2019-07-08 12:29:36 +0000  2631 bytes for ./Base.lproj/Main.storyboardc/HomeViewController.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/HomeViewController.nib/runtime.nib ... 
+2635 bytes for ./Base.lproj/Main.storyboardc/HomeViewController.nib/runtime.nib
+copying file ./Base.lproj/Main.storyboardc/CalendarViewController.nib/objects-11.0+.nib ... 
+1197 bytes for ./Base.lproj/Main.storyboardc/CalendarViewController.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/CalendarViewController.nib/runtime.nib ... 
+1197 bytes for ./Base.lproj/Main.storyboardc/CalendarViewController.nib/runtime.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-Id4-1M-Cfp.nib/objects-11.0+.nib ... 
+1032 bytes for ./Base.lproj/Main.storyboardc/UIViewController-Id4-1M-Cfp.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-Id4-1M-Cfp.nib/runtime.nib ... 
+2019-07-08 12:29:36 +0000  1032 bytes for ./Base.lproj/Main.storyboardc/UIViewController-Id4-1M-Cfp.nib/runtime.nib
+2019-07-08 12:29:36 +0000  copying file ./Base.lproj/Main.storyboardc/yr8-Nv-1GK-view-0kj-ah-Yg0.nib/objects-11.0+.nib ... 
+2019-07-08 12:29:36 +0000  24860 bytes for ./Base.lproj/Main.storyboardc/yr8-Nv-1GK-view-0kj-ah-Yg0.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/yr8-Nv-1GK-view-0kj-ah-Yg0.nib/runtime.nib ... 
+2019-07-08 12:29:36 +0000  25045 bytes for ./Base.lproj/Main.storyboardc/yr8-Nv-1GK-view-0kj-ah-Yg0.nib/runtime.nib
+copying file ./Base.lproj/Main.storyboardc/TestViewController.nib/objects-11.0+.nib ... 
+2019-07-08 12:29:36 +0000  991 bytes for ./Base.lproj/Main.storyboardc/TestViewController.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/TestViewController.nib/runtime.nib ... 
+2019-07-08 12:29:36 +0000  991 bytes for ./Base.lproj/Main.storyboardc/TestViewController.nib/runtime.nib
+copying file ./Base.lproj/Main.storyboardc/UINavigationController-oS8-jG-V68.nib/objects-11.0+.nib ... 
+2019-07-08 12:29:36 +0000  2284 bytes for ./Base.lproj/Main.storyboardc/UINavigationController-oS8-jG-V68.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/UINavigationController-oS8-jG-V68.nib/runtime.nib ... 
+2019-07-08 12:29:36 +0000  2284 bytes for ./Base.lproj/Main.storyboardc/UINavigationController-oS8-jG-V68.nib/runtime.nib
+2019-07-08 12:29:36 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib ... 
+2019-07-08 12:29:36 +0000  16048 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib ... 
+2019-07-08 12:29:36 +0000  16126 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib
+copying file ./Base.lproj/Main.storyboardc/ckS-O8-8IM-view-Jcy-Ru-fiW.nib/objects-11.0+.nib ... 
+18069 bytes for ./Base.lproj/Main.storyboardc/ckS-O8-8IM-view-Jcy-Ru-fiW.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/ckS-O8-8IM-view-Jcy-Ru-fiW.nib/runtime.nib ... 
+18083 bytes for ./Base.lproj/Main.storyboardc/ckS-O8-8IM-view-Jcy-Ru-fiW.nib/runtime.nib
+copying file ./Base.lproj/Main.storyboardc/dRm-x1-b8d-view-Qzu-9j-lqV.nib/objects-11.0+.nib ... 
+2588 bytes for ./Base.lproj/Main.storyboardc/dRm-x1-b8d-view-Qzu-9j-lqV.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/dRm-x1-b8d-view-Qzu-9j-lqV.nib/runtime.nib ... 
+3183 bytes for ./Base.lproj/Main.storyboardc/dRm-x1-b8d-view-Qzu-9j-lqV.nib/runtime.nib
+copying file ./Base.lproj/Main.storyboardc/0Qa-6l-m4m-view-K1g-fo-nst.nib/objects-11.0+.nib ... 
+8390 bytes for ./Base.lproj/Main.storyboardc/0Qa-6l-m4m-view-K1g-fo-nst.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/0Qa-6l-m4m-view-K1g-fo-nst.nib/runtime.nib ... 
+9228 bytes for ./Base.lproj/Main.storyboardc/0Qa-6l-m4m-view-K1g-fo-nst.nib/runtime.nib
+copying file ./Base.lproj/Main.storyboardc/Q20-s0-0eP-view-Whj-EI-vye.nib/objects-11.0+.nib ... 
+9614 bytes for ./Base.lproj/Main.storyboardc/Q20-s0-0eP-view-Whj-EI-vye.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/Q20-s0-0eP-view-Whj-EI-vye.nib/runtime.nib ... 
+9753 bytes for ./Base.lproj/Main.storyboardc/Q20-s0-0eP-view-Whj-EI-vye.nib/runtime.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-Kml-hA-54y.nib/objects-11.0+.nib ... 
+1422 bytes for ./Base.lproj/Main.storyboardc/UIViewController-Kml-hA-54y.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-Kml-hA-54y.nib/runtime.nib ... 
+1422 bytes for ./Base.lproj/Main.storyboardc/UIViewController-Kml-hA-54y.nib/runtime.nib
+copying file ./Base.lproj/Main.storyboardc/UINavigationController-BkS-xk-IQm.nib/objects-11.0+.nib ... 
+2019-07-08 12:29:36 +0000  3282 bytes for ./Base.lproj/Main.storyboardc/UINavigationController-BkS-xk-IQm.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/UINavigationController-BkS-xk-IQm.nib/runtime.nib ... 
+3285 bytes for ./Base.lproj/Main.storyboardc/UINavigationController-BkS-xk-IQm.nib/runtime.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-aZc-62-EgE.nib/objects-11.0+.nib ... 
+1033 bytes for ./Base.lproj/Main.storyboardc/UIViewController-aZc-62-EgE.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-aZc-62-EgE.nib/runtime.nib ... 
+1033 bytes for ./Base.lproj/Main.storyboardc/UIViewController-aZc-62-EgE.nib/runtime.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+1039 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+copying file ./Base.lproj/Main.storyboardc/SelectedRowViewController.nib/objects-11.0+.nib ... 
+1396 bytes for ./Base.lproj/Main.storyboardc/SelectedRowViewController.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/SelectedRowViewController.nib/runtime.nib ... 
+1396 bytes for ./Base.lproj/Main.storyboardc/SelectedRowViewController.nib/runtime.nib
+copying file ./Base.lproj/Main.storyboardc/Id4-1M-Cfp-view-EeK-ak-eDq.nib/objects-11.0+.nib ... 
+8382 bytes for ./Base.lproj/Main.storyboardc/Id4-1M-Cfp-view-EeK-ak-eDq.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/Id4-1M-Cfp-view-EeK-ak-eDq.nib/runtime.nib ... 
+7913 bytes for ./Base.lproj/Main.storyboardc/Id4-1M-Cfp-view-EeK-ak-eDq.nib/runtime.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+1985 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Assets.car ... 
+2019-07-08 12:29:37 +0000  16375824 bytes for ./Assets.car
+copying file ./AppIcon40x40@2x~ipad.png ... 
+8912 bytes for ./AppIcon40x40@2x~ipad.png
+copying file ./AppIcon76x76@2x~ipad.png ... 
+17200 bytes for ./AppIcon76x76@2x~ipad.png
+copying file ./AppIcon83.5x83.5@2x~ipad.png ... 
+18871 bytes for ./AppIcon83.5x83.5@2x~ipad.png
+copying file ./AppIcon29x29@2x~ipad.png ... 
+6126 bytes for ./AppIcon29x29@2x~ipad.png
+copying file ./airport.txt ... 
+3446138 bytes for ./airport.txt
+copying file ./AppIcon40x40~ipad.png ... 
+4265 bytes for ./AppIcon40x40~ipad.png
+copying file ./Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/SwiftyJSON.framework/SwiftyJSON ... 
+2012624 bytes for ./Frameworks/SwiftyJSON.framework/SwiftyJSON
+copying file ./Frameworks/SwiftyJSON.framework/Info.plist ... 
+744 bytes for ./Frameworks/SwiftyJSON.framework/Info.plist
+copying file ./Frameworks/libswiftCoreImage.dylib ... 
+466560 bytes for ./Frameworks/libswiftCoreImage.dylib
+copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+679680 bytes for ./Frameworks/libswiftObjectiveC.dylib
+copying file ./Frameworks/GTMSessionFetcher.framework/_CodeSignature/CodeResources ... 
+2019-07-08 12:29:37 +0000  1798 bytes for ./Frameworks/GTMSessionFetcher.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher ... 
+2019-07-08 12:29:37 +0000  2556576 bytes for ./Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher
+copying file ./Frameworks/GTMSessionFetcher.framework/Info.plist ... 
+2019-07-08 12:29:37 +0000  760 bytes for ./Frameworks/GTMSessionFetcher.framework/Info.plist
+copying file ./Frameworks/libswiftCore.dylib ... 
+2019-07-08 12:29:39 +0000  95497584 bytes for ./Frameworks/libswiftCore.dylib
+2019-07-08 12:29:39 +0000  copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2041040 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+copying file ./Frameworks/AlamofireImage.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Frameworks/AlamofireImage.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/AlamofireImage.framework/AlamofireImage ... 
+3187072 bytes for ./Frameworks/AlamofireImage.framework/AlamofireImage
+copying file ./Frameworks/AlamofireImage.framework/Info.plist ... 
+752 bytes for ./Frameworks/AlamofireImage.framework/Info.plist
+copying file ./Frameworks/libswiftUIKit.dylib ... 
+1608800 bytes for ./Frameworks/libswiftUIKit.dylib
+copying file ./Frameworks/libswiftMetal.dylib ... 
+724416 bytes for ./Frameworks/libswiftMetal.dylib
+copying file ./Frameworks/libswiftDispatch.dylib ... 
+4056896 bytes for ./Frameworks/libswiftDispatch.dylib
+copying file ./Frameworks/libswiftos.dylib ... 
+857184 bytes for ./Frameworks/libswiftos.dylib
+copying file ./Frameworks/GoogleUtilities.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Frameworks/GoogleUtilities.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/GoogleUtilities.framework/GoogleUtilities ... 
+1613184 bytes for ./Frameworks/GoogleUtilities.framework/GoogleUtilities
+copying file ./Frameworks/GoogleUtilities.framework/Info.plist ... 
+756 bytes for ./Frameworks/GoogleUtilities.framework/Info.plist
+copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+450384 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+copying file ./Frameworks/TTSegmentedControl.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Frameworks/TTSegmentedControl.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/TTSegmentedControl.framework/TTSegmentedControl ... 
+1672832 bytes for ./Frameworks/TTSegmentedControl.framework/TTSegmentedControl
+copying file ./Frameworks/TTSegmentedControl.framework/Info.plist ... 
+762 bytes for ./Frameworks/TTSegmentedControl.framework/Info.plist
+copying file ./Frameworks/libswiftDarwin.dylib ... 
+1091440 bytes for ./Frameworks/libswiftDarwin.dylib
+copying file ./Frameworks/nanopb.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Frameworks/nanopb.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/nanopb.framework/nanopb ... 
+538656 bytes for ./Frameworks/nanopb.framework/nanopb
+copying file ./Frameworks/nanopb.framework/Info.plist ... 
+738 bytes for ./Frameworks/nanopb.framework/Info.plist
+copying file ./Frameworks/SearchTextField.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Frameworks/SearchTextField.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/SearchTextField.framework/SearchTextField ... 
+1621360 bytes for ./Frameworks/SearchTextField.framework/SearchTextField
+copying file ./Frameworks/SearchTextField.framework/Info.plist ... 
+756 bytes for ./Frameworks/SearchTextField.framework/Info.plist
+copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+486336 bytes for ./Frameworks/libswiftQuartzCore.dylib
+copying file ./Frameworks/leveldb.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Frameworks/leveldb.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/leveldb.framework/leveldb ... 
+4695472 bytes for ./Frameworks/leveldb.framework/leveldb
+copying file ./Frameworks/leveldb.framework/Info.plist ... 
+739 bytes for ./Frameworks/leveldb.framework/Info.plist
+copying file ./Frameworks/Alamofire.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Frameworks/Alamofire.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/Alamofire.framework/Alamofire ... 
+2019-07-08 12:29:39 +0000  7886976 bytes for ./Frameworks/Alamofire.framework/Alamofire
+copying file ./Frameworks/Alamofire.framework/Info.plist ... 
+742 bytes for ./Frameworks/Alamofire.framework/Info.plist
+copying file ./Frameworks/MaterialComponents.framework/_CodeSignature/CodeResources ... 
+2339 bytes for ./Frameworks/MaterialComponents.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/MaterialComponents.framework/MaterialBottomNavigation.bundle/Resources/en.lproj/MaterialBottomNavigation.strings ... 
+483 bytes for ./Frameworks/MaterialComponents.framework/MaterialBottomNavigation.bundle/Resources/en.lproj/MaterialBottomNavigation.strings
+copying file ./Frameworks/MaterialComponents.framework/MaterialComponents ... 
+3163968 bytes for ./Frameworks/MaterialComponents.framework/MaterialComponents
+copying file ./Frameworks/MaterialComponents.framework/Info.plist ... 
+763 bytes for ./Frameworks/MaterialComponents.framework/Info.plist
+copying file ./Frameworks/libswiftFoundation.dylib ... 
+2019-07-08 12:29:40 +0000  43094320 bytes for ./Frameworks/libswiftFoundation.dylib
+2019-07-08 12:29:40 +0000  copying file ./Frameworks/MDFInternationalization.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Frameworks/MDFInternationalization.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/MDFInternationalization.framework/MDFInternationalization ... 
+505248 bytes for ./Frameworks/MDFInternationalization.framework/MDFInternationalization
+copying file ./Frameworks/MDFInternationalization.framework/Info.plist ... 
+772 bytes for ./Frameworks/MDFInternationalization.framework/Info.plist
+copying file ./AppIcon20x20~ipad.png ... 
+2322 bytes for ./AppIcon20x20~ipad.png
+copying file ./embedded.mobileprovision ... 
+7671 bytes for ./embedded.mobileprovision
+copying file ./CardView.nib ... 
+5144 bytes for ./CardView.nib
+copying file ./AppIcon20x20@2x~ipad.png ... 
+4265 bytes for ./AppIcon20x20@2x~ipad.png
+copying file ./Info.plist ... 
+1523 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2019-07-08 12:29:40 +0000  8 bytes for ./PkgInfo
+copying file ./airlines.txt ... 
+95777 bytes for ./airlines.txt
+copying file ./AppIcon76x76~ipad.png ... 
+8432 bytes for ./AppIcon76x76~ipad.png
+2019-07-08 12:29:40 +0000  /usr/bin/ditto exited with 0
+2019-07-08 12:29:40 +0000  Processing step: IDEDistributionEmbedProfileStep
+2019-07-08 12:29:40 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9303118990 'org.cocoapods.Alamofire' '<DVTFilePath:0x7f92ffa554e0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/Alamofire.framework'>'>
+2019-07-08 12:29:40 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9303276cf0 'org.cocoapods.AlamofireImage' '<DVTFilePath:0x7f92ff31b710:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/AlamofireImage.framework'>'>
+2019-07-08 12:29:40 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9300db00b0 'org.cocoapods.GTMSessionFetcher' '<DVTFilePath:0x7f92ff3558b0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/GTMSessionFetcher.framework'>'>
+2019-07-08 12:29:40 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9300e14670 'org.cocoapods.GoogleUtilities' '<DVTFilePath:0x7f92ffe73d70:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/GoogleUtilities.framework'>'>
+2019-07-08 12:29:40 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9300508fe0 'org.cocoapods.MDFInternationalization' '<DVTFilePath:0x7f92fe715be0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/MDFInternationalization.framework'>'>
+2019-07-08 12:29:40 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f930305bb90 'org.cocoapods.MaterialComponents' '<DVTFilePath:0x7f930f5b7300:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/MaterialComponents.framework'>'>
+2019-07-08 12:29:40 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f93104186c0 'org.cocoapods.SearchTextField' '<DVTFilePath:0x7f92fce663c0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/SearchTextField.framework'>'>
+2019-07-08 12:29:40 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f92fe25ee00 'org.cocoapods.SwiftyJSON' '<DVTFilePath:0x7f92fe7095f0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/SwiftyJSON.framework'>'>
+2019-07-08 12:29:40 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f92fbda6a10 'org.cocoapods.TTSegmentedControl' '<DVTFilePath:0x7f92fe7fb0f0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/TTSegmentedControl.framework'>'>
+2019-07-08 12:29:40 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f93030380c0 'org.cocoapods.leveldb' '<DVTFilePath:0x7f92ff3af0e0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/leveldb.framework'>'>
+2019-07-08 12:29:40 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9300f85b50 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f9300849070:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftCore.dylib'>'>
+2019-07-08 12:29:40 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9300dc7dd0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f92ffca5d00:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2019-07-08 12:29:40 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f92ff3516e0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f92ff065870:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2019-07-08 12:29:40 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9303275ee0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f92fbbe8a70:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftCoreImage.dylib'>'>
+2019-07-08 12:29:40 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9300fcd140 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f93003aa310:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftDarwin.dylib'>'>
+2019-07-08 12:29:40 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f92fe7933e0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f92fffd1520:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftDispatch.dylib'>'>
+2019-07-08 12:29:40 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f92ff0f40c0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f9300d873a0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftFoundation.dylib'>'>
+2019-07-08 12:29:40 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f92ff9c2220 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f92ffb1c0b0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftMetal.dylib'>'>
+2019-07-08 12:29:40 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f92ff3c6500 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f9300a623d0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2019-07-08 12:29:40 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9303183750 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f9300aef400:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2019-07-08 12:29:40 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f930326bf50 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f9300a1b270:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftUIKit.dylib'>'>
+2019-07-08 12:29:40 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9300eac620 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f92fe171cd0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftos.dylib'>'>
+2019-07-08 12:29:40 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f930307dbd0 'org.cocoapods.nanopb' '<DVTFilePath:0x7f92fc87d630:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/nanopb.framework'>'>
+2019-07-08 12:29:40 +0000  Processing step: IDEDistributionItemRemovalStep
+2019-07-08 12:29:40 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2019-07-08 12:29:40 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2019-07-08 12:29:40 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2019-07-08 12:29:40 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2019-07-08 12:29:40 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2019-07-08 12:29:42 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-07-08 12:29:42 +0000  Processing step: IDEDistributionSymbolsStep
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-07-08 12:29:42 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-07-08 12:29:42 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2019-07-08 12:29:42 +0000  Running /usr/bin/ditto '-V' '/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/SwiftSupport' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/SwiftSupport'
+2019-07-08 12:29:42 +0000  >>> Copying /Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/SwiftSupport 
+2019-07-08 12:29:42 +0000  copying file ./iphoneos/libswiftCoreImage.dylib ... 
+2019-07-08 12:29:42 +0000  474638 bytes for ./iphoneos/libswiftCoreImage.dylib
+copying file ./iphoneos/libswiftObjectiveC.dylib ... 
+2019-07-08 12:29:42 +0000  795664 bytes for ./iphoneos/libswiftObjectiveC.dylib
+copying file ./iphoneos/libswiftCore.dylib ... 
+2019-07-08 12:29:43 +0000  140418790 bytes for ./iphoneos/libswiftCore.dylib
+2019-07-08 12:29:44 +0000  copying file ./iphoneos/libswiftCoreGraphics.dylib ... 
+2019-07-08 12:29:44 +0000  2688450 bytes for ./iphoneos/libswiftCoreGraphics.dylib
+copying file ./iphoneos/libswiftUIKit.dylib ... 
+2019-07-08 12:29:44 +0000  2149504 bytes for ./iphoneos/libswiftUIKit.dylib
+copying file ./iphoneos/libswiftMetal.dylib ... 
+838789 bytes for ./iphoneos/libswiftMetal.dylib
+copying file ./iphoneos/libswiftDispatch.dylib ... 
+2019-07-08 12:29:44 +0000  5456696 bytes for ./iphoneos/libswiftDispatch.dylib
+copying file ./iphoneos/libswiftos.dylib ... 
+2019-07-08 12:29:44 +0000  1079649 bytes for ./iphoneos/libswiftos.dylib
+copying file ./iphoneos/libswiftCoreFoundation.dylib ... 
+2019-07-08 12:29:44 +0000  445022 bytes for ./iphoneos/libswiftCoreFoundation.dylib
+2019-07-08 12:29:44 +0000  copying file ./iphoneos/libswiftDarwin.dylib ... 
+2019-07-08 12:29:44 +0000  1369298 bytes for ./iphoneos/libswiftDarwin.dylib
+2019-07-08 12:29:44 +0000  copying file ./iphoneos/libswiftQuartzCore.dylib ... 
+2019-07-08 12:29:44 +0000  570749 bytes for ./iphoneos/libswiftQuartzCore.dylib
+copying file ./iphoneos/libswiftFoundation.dylib ... 
+2019-07-08 12:29:44 +0000  62245532 bytes for ./iphoneos/libswiftFoundation.dylib
+2019-07-08 12:29:44 +0000  /usr/bin/ditto exited with 0
+2019-07-08 12:29:45 +0000  Processing step: IDEDistributionAppThinningStep
+2019-07-08 12:29:45 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2019-07-08 12:29:45 +0000  Processing step: IDEDistributionArchThinningStep
+2019-07-08 12:29:45 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/Alamofire.framework/Alamofire' '-verify_arch' 'arm64e'
+2019-07-08 12:29:45 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-08 12:29:45 +0000  Skipping architecture thinning for item "Alamofire" because arch "arm64e" wasn't found
+2019-07-08 12:29:45 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/AlamofireImage.framework/AlamofireImage' '-verify_arch' 'arm64e'
+2019-07-08 12:29:45 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-08 12:29:45 +0000  Skipping architecture thinning for item "AlamofireImage" because arch "arm64e" wasn't found
+2019-07-08 12:29:45 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher' '-verify_arch' 'arm64e'
+2019-07-08 12:29:45 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-08 12:29:45 +0000  Skipping architecture thinning for item "GTMSessionFetcher" because arch "arm64e" wasn't found
+2019-07-08 12:29:45 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/GoogleUtilities.framework/GoogleUtilities' '-verify_arch' 'arm64e'
+2019-07-08 12:29:45 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-08 12:29:45 +0000  Skipping architecture thinning for item "GoogleUtilities" because arch "arm64e" wasn't found
+2019-07-08 12:29:45 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/MDFInternationalization.framework/MDFInternationalization' '-verify_arch' 'arm64e'
+2019-07-08 12:29:45 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-08 12:29:45 +0000  Skipping architecture thinning for item "MDFInternationalization" because arch "arm64e" wasn't found
+2019-07-08 12:29:45 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/MaterialComponents.framework/MaterialComponents' '-verify_arch' 'arm64e'
+2019-07-08 12:29:45 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-08 12:29:45 +0000  Skipping architecture thinning for item "MaterialComponents" because arch "arm64e" wasn't found
+2019-07-08 12:29:45 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/SearchTextField.framework/SearchTextField' '-verify_arch' 'arm64e'
+2019-07-08 12:29:45 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-08 12:29:45 +0000  Skipping architecture thinning for item "SearchTextField" because arch "arm64e" wasn't found
+2019-07-08 12:29:45 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/SwiftyJSON.framework/SwiftyJSON' '-verify_arch' 'arm64e'
+2019-07-08 12:29:45 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-08 12:29:45 +0000  Skipping architecture thinning for item "SwiftyJSON" because arch "arm64e" wasn't found
+2019-07-08 12:29:45 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/TTSegmentedControl.framework/TTSegmentedControl' '-verify_arch' 'arm64e'
+2019-07-08 12:29:45 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-08 12:29:45 +0000  Skipping architecture thinning for item "TTSegmentedControl" because arch "arm64e" wasn't found
+2019-07-08 12:29:45 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/leveldb.framework/leveldb' '-verify_arch' 'arm64e'
+2019-07-08 12:29:45 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-08 12:29:45 +0000  Skipping architecture thinning for item "leveldb" because arch "arm64e" wasn't found
+2019-07-08 12:29:45 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftCore.dylib' '-verify_arch' 'arm64e'
+2019-07-08 12:29:45 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-07-08 12:29:45 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftCore.dylib'
+2019-07-08 12:29:45 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-07-08 12:29:45 +0000  Successfully thinned item "libswiftCore.dylib", arch "arm64e"
+2019-07-08 12:29:45 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftCoreFoundation.dylib' '-verify_arch' 'arm64e'
+2019-07-08 12:29:45 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-07-08 12:29:45 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftCoreFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftCoreFoundation.dylib'
+2019-07-08 12:29:45 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-07-08 12:29:45 +0000  Successfully thinned item "libswiftCoreFoundation.dylib", arch "arm64e"
+2019-07-08 12:29:45 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftCoreGraphics.dylib' '-verify_arch' 'arm64e'
+2019-07-08 12:29:45 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-07-08 12:29:45 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftCoreGraphics.dylib' '-remove' 'arm64e' '-output' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftCoreGraphics.dylib'
+2019-07-08 12:29:45 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-07-08 12:29:45 +0000  Successfully thinned item "libswiftCoreGraphics.dylib", arch "arm64e"
+2019-07-08 12:29:45 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftCoreImage.dylib' '-verify_arch' 'arm64e'
+2019-07-08 12:29:45 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-07-08 12:29:45 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftCoreImage.dylib' '-remove' 'arm64e' '-output' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftCoreImage.dylib'
+2019-07-08 12:29:45 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-07-08 12:29:45 +0000  Successfully thinned item "libswiftCoreImage.dylib", arch "arm64e"
+2019-07-08 12:29:45 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftDarwin.dylib' '-verify_arch' 'arm64e'
+2019-07-08 12:29:45 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-07-08 12:29:45 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftDarwin.dylib' '-remove' 'arm64e' '-output' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftDarwin.dylib'
+2019-07-08 12:29:45 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-07-08 12:29:45 +0000  Successfully thinned item "libswiftDarwin.dylib", arch "arm64e"
+2019-07-08 12:29:45 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftDispatch.dylib' '-verify_arch' 'arm64e'
+2019-07-08 12:29:45 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-07-08 12:29:45 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftDispatch.dylib' '-remove' 'arm64e' '-output' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftDispatch.dylib'
+2019-07-08 12:29:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-07-08 12:29:46 +0000  Successfully thinned item "libswiftDispatch.dylib", arch "arm64e"
+2019-07-08 12:29:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftFoundation.dylib' '-verify_arch' 'arm64e'
+2019-07-08 12:29:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-07-08 12:29:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftFoundation.dylib'
+2019-07-08 12:29:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-07-08 12:29:46 +0000  Successfully thinned item "libswiftFoundation.dylib", arch "arm64e"
+2019-07-08 12:29:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftMetal.dylib' '-verify_arch' 'arm64e'
+2019-07-08 12:29:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-07-08 12:29:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftMetal.dylib' '-remove' 'arm64e' '-output' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftMetal.dylib'
+2019-07-08 12:29:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-07-08 12:29:46 +0000  Successfully thinned item "libswiftMetal.dylib", arch "arm64e"
+2019-07-08 12:29:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftObjectiveC.dylib' '-verify_arch' 'arm64e'
+2019-07-08 12:29:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-07-08 12:29:47 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftObjectiveC.dylib' '-remove' 'arm64e' '-output' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftObjectiveC.dylib'
+2019-07-08 12:29:47 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-07-08 12:29:47 +0000  Successfully thinned item "libswiftObjectiveC.dylib", arch "arm64e"
+2019-07-08 12:29:47 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftQuartzCore.dylib' '-verify_arch' 'arm64e'
+2019-07-08 12:29:47 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-07-08 12:29:47 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftQuartzCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftQuartzCore.dylib'
+2019-07-08 12:29:47 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-07-08 12:29:47 +0000  Successfully thinned item "libswiftQuartzCore.dylib", arch "arm64e"
+2019-07-08 12:29:47 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftUIKit.dylib' '-verify_arch' 'arm64e'
+2019-07-08 12:29:47 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-07-08 12:29:48 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftUIKit.dylib' '-remove' 'arm64e' '-output' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftUIKit.dylib'
+2019-07-08 12:29:48 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-07-08 12:29:48 +0000  Successfully thinned item "libswiftUIKit.dylib", arch "arm64e"
+2019-07-08 12:29:48 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftos.dylib' '-verify_arch' 'arm64e'
+2019-07-08 12:29:48 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-07-08 12:29:48 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftos.dylib' '-remove' 'arm64e' '-output' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftos.dylib'
+2019-07-08 12:29:48 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-07-08 12:29:48 +0000  Successfully thinned item "libswiftos.dylib", arch "arm64e"
+2019-07-08 12:29:48 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/nanopb.framework/nanopb' '-verify_arch' 'arm64e'
+2019-07-08 12:29:48 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-08 12:29:48 +0000  Skipping architecture thinning for item "nanopb" because arch "arm64e" wasn't found
+2019-07-08 12:29:48 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Travanada2' '-verify_arch' 'arm64e'
+2019-07-08 12:29:48 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-08 12:29:48 +0000  Skipping architecture thinning for item "Travanada2" because arch "arm64e" wasn't found
+2019-07-08 12:29:48 +0000  Processing step: IDEDistributionODRStep
+2019-07-08 12:29:48 +0000  Processing step: IDEDistributionStripXattrsStep
+2019-07-08 12:29:48 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9303118990 'org.cocoapods.Alamofire' '<DVTFilePath:0x7f92ffa554e0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/Alamofire.framework'>'>
+2019-07-08 12:29:48 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9303276cf0 'org.cocoapods.AlamofireImage' '<DVTFilePath:0x7f92ff31b710:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/AlamofireImage.framework'>'>
+2019-07-08 12:29:48 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9300db00b0 'org.cocoapods.GTMSessionFetcher' '<DVTFilePath:0x7f92ff3558b0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/GTMSessionFetcher.framework'>'>
+2019-07-08 12:29:48 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9300e14670 'org.cocoapods.GoogleUtilities' '<DVTFilePath:0x7f92ffe73d70:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/GoogleUtilities.framework'>'>
+2019-07-08 12:29:48 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9300508fe0 'org.cocoapods.MDFInternationalization' '<DVTFilePath:0x7f92fe715be0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/MDFInternationalization.framework'>'>
+2019-07-08 12:29:48 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f930305bb90 'org.cocoapods.MaterialComponents' '<DVTFilePath:0x7f930f5b7300:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/MaterialComponents.framework'>'>
+2019-07-08 12:29:48 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f93104186c0 'org.cocoapods.SearchTextField' '<DVTFilePath:0x7f92fce663c0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/SearchTextField.framework'>'>
+2019-07-08 12:29:48 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f92fe25ee00 'org.cocoapods.SwiftyJSON' '<DVTFilePath:0x7f92fe7095f0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/SwiftyJSON.framework'>'>
+2019-07-08 12:29:48 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f92fbda6a10 'org.cocoapods.TTSegmentedControl' '<DVTFilePath:0x7f92fe7fb0f0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/TTSegmentedControl.framework'>'>
+2019-07-08 12:29:48 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f93030380c0 'org.cocoapods.leveldb' '<DVTFilePath:0x7f92ff3af0e0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/leveldb.framework'>'>
+2019-07-08 12:29:48 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9300f85b50 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f9300849070:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftCore.dylib'>'>
+2019-07-08 12:29:48 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9300dc7dd0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f92ffca5d00:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2019-07-08 12:29:48 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f92ff3516e0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f92ff065870:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2019-07-08 12:29:48 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9303275ee0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f92fbbe8a70:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftCoreImage.dylib'>'>
+2019-07-08 12:29:48 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9300fcd140 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f93003aa310:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftDarwin.dylib'>'>
+2019-07-08 12:29:48 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f92fe7933e0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f92fffd1520:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftDispatch.dylib'>'>
+2019-07-08 12:29:48 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f92ff0f40c0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f9300d873a0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftFoundation.dylib'>'>
+2019-07-08 12:29:48 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f92ff9c2220 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f92ffb1c0b0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftMetal.dylib'>'>
+2019-07-08 12:29:48 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f92ff3c6500 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f9300a623d0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2019-07-08 12:29:48 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9303183750 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f9300aef400:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2019-07-08 12:29:48 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f930326bf50 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f9300a1b270:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftUIKit.dylib'>'>
+2019-07-08 12:29:48 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9300eac620 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f92fe171cd0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftos.dylib'>'>
+2019-07-08 12:29:48 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f930307dbd0 'org.cocoapods.nanopb' '<DVTFilePath:0x7f92fc87d630:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/nanopb.framework'>'>
+2019-07-08 12:29:48 +0000  Running /usr/bin/xattr '-crs' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app'
+2019-07-08 12:29:48 +0000  /usr/bin/xattr exited with 0
+2019-07-08 12:29:48 +0000  Processing step: IDEDistributionCodesignStep
+2019-07-08 12:29:48 +0000  Entitlements for <IDEDistributionItem: 0x7f9303118990 'org.cocoapods.Alamofire' '<DVTFilePath:0x7f92ffa554e0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/Alamofire.framework'>'>: {
+}
+2019-07-08 12:29:48 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9303118990 'org.cocoapods.Alamofire' '<DVTFilePath:0x7f92ffa554e0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/Alamofire.framework'>'> to: /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~B4g2fi
+2019-07-08 12:29:48 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '45DBF781F5D3E7B049DFD2F7F2A9DC1F90C545D7' '--entitlements' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~B4g2fi' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/Alamofire.framework'
+2019-07-08 12:29:49 +0000  /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/Alamofire.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.Alamofire]
+2019-07-08 12:29:49 +0000  /usr/bin/codesign exited with 0
+2019-07-08 12:29:49 +0000  Entitlements for <IDEDistributionItem: 0x7f9303276cf0 'org.cocoapods.AlamofireImage' '<DVTFilePath:0x7f92ff31b710:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/AlamofireImage.framework'>'>: {
+}
+2019-07-08 12:29:49 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9303276cf0 'org.cocoapods.AlamofireImage' '<DVTFilePath:0x7f92ff31b710:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/AlamofireImage.framework'>'> to: /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~j3IHHv
+2019-07-08 12:29:49 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '45DBF781F5D3E7B049DFD2F7F2A9DC1F90C545D7' '--entitlements' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~j3IHHv' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/AlamofireImage.framework'
+2019-07-08 12:29:49 +0000  /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/AlamofireImage.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.AlamofireImage]
+2019-07-08 12:29:49 +0000  /usr/bin/codesign exited with 0
+2019-07-08 12:29:49 +0000  Entitlements for <IDEDistributionItem: 0x7f9300db00b0 'org.cocoapods.GTMSessionFetcher' '<DVTFilePath:0x7f92ff3558b0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/GTMSessionFetcher.framework'>'>: {
+}
+2019-07-08 12:29:49 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9300db00b0 'org.cocoapods.GTMSessionFetcher' '<DVTFilePath:0x7f92ff3558b0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/GTMSessionFetcher.framework'>'> to: /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~Pz3wYF
+2019-07-08 12:29:49 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '45DBF781F5D3E7B049DFD2F7F2A9DC1F90C545D7' '--entitlements' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~Pz3wYF' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/GTMSessionFetcher.framework'
+2019-07-08 12:29:50 +0000  /usr/bin/codesign exited with 0
+2019-07-08 12:29:50 +0000  Entitlements for <IDEDistributionItem: 0x7f9300e14670 'org.cocoapods.GoogleUtilities' '<DVTFilePath:0x7f92ffe73d70:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/GoogleUtilities.framework'>'>: {
+}
+2019-07-08 12:29:50 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9300e14670 'org.cocoapods.GoogleUtilities' '<DVTFilePath:0x7f92ffe73d70:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/GoogleUtilities.framework'>'> to: /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~NyjhcY
+2019-07-08 12:29:50 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '45DBF781F5D3E7B049DFD2F7F2A9DC1F90C545D7' '--entitlements' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~NyjhcY' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/GoogleUtilities.framework'
+2019-07-08 12:29:50 +0000  /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/GoogleUtilities.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.GoogleUtilities]
+2019-07-08 12:29:50 +0000  /usr/bin/codesign exited with 0
+2019-07-08 12:29:50 +0000  Entitlements for <IDEDistributionItem: 0x7f9300508fe0 'org.cocoapods.MDFInternationalization' '<DVTFilePath:0x7f92fe715be0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/MDFInternationalization.framework'>'>: {
+}
+2019-07-08 12:29:50 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9300508fe0 'org.cocoapods.MDFInternationalization' '<DVTFilePath:0x7f92fe715be0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/MDFInternationalization.framework'>'> to: /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~imJn17
+2019-07-08 12:29:50 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '45DBF781F5D3E7B049DFD2F7F2A9DC1F90C545D7' '--entitlements' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~imJn17' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/MDFInternationalization.framework'
+2019-07-08 12:29:50 +0000  /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/MDFInternationalization.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.MDFInternationalization]
+2019-07-08 12:29:50 +0000  /usr/bin/codesign exited with 0
+2019-07-08 12:29:50 +0000  Entitlements for <IDEDistributionItem: 0x7f930305bb90 'org.cocoapods.MaterialComponents' '<DVTFilePath:0x7f930f5b7300:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/MaterialComponents.framework'>'>: {
+}
+2019-07-08 12:29:50 +0000  Writing entitlements for <IDEDistributionItem: 0x7f930305bb90 'org.cocoapods.MaterialComponents' '<DVTFilePath:0x7f930f5b7300:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/MaterialComponents.framework'>'> to: /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~5LpI7H
+2019-07-08 12:29:50 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '45DBF781F5D3E7B049DFD2F7F2A9DC1F90C545D7' '--entitlements' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~5LpI7H' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/MaterialComponents.framework'
+2019-07-08 12:29:50 +0000  /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/MaterialComponents.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.MaterialComponents]
+2019-07-08 12:29:50 +0000  /usr/bin/codesign exited with 0
+2019-07-08 12:29:50 +0000  Entitlements for <IDEDistributionItem: 0x7f93104186c0 'org.cocoapods.SearchTextField' '<DVTFilePath:0x7f92fce663c0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/SearchTextField.framework'>'>: {
+}
+2019-07-08 12:29:50 +0000  Writing entitlements for <IDEDistributionItem: 0x7f93104186c0 'org.cocoapods.SearchTextField' '<DVTFilePath:0x7f92fce663c0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/SearchTextField.framework'>'> to: /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~aXOkN5
+2019-07-08 12:29:50 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '45DBF781F5D3E7B049DFD2F7F2A9DC1F90C545D7' '--entitlements' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~aXOkN5' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/SearchTextField.framework'
+2019-07-08 12:29:51 +0000  /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/SearchTextField.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.SearchTextField]
+2019-07-08 12:29:51 +0000  /usr/bin/codesign exited with 0
+2019-07-08 12:29:51 +0000  Entitlements for <IDEDistributionItem: 0x7f92fe25ee00 'org.cocoapods.SwiftyJSON' '<DVTFilePath:0x7f92fe7095f0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/SwiftyJSON.framework'>'>: {
+}
+2019-07-08 12:29:51 +0000  Writing entitlements for <IDEDistributionItem: 0x7f92fe25ee00 'org.cocoapods.SwiftyJSON' '<DVTFilePath:0x7f92fe7095f0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/SwiftyJSON.framework'>'> to: /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~UXUsD7
+2019-07-08 12:29:51 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '45DBF781F5D3E7B049DFD2F7F2A9DC1F90C545D7' '--entitlements' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~UXUsD7' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/SwiftyJSON.framework'
+2019-07-08 12:29:51 +0000  /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/SwiftyJSON.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.SwiftyJSON]
+2019-07-08 12:29:51 +0000  /usr/bin/codesign exited with 0
+2019-07-08 12:29:51 +0000  Entitlements for <IDEDistributionItem: 0x7f92fbda6a10 'org.cocoapods.TTSegmentedControl' '<DVTFilePath:0x7f92fe7fb0f0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/TTSegmentedControl.framework'>'>: {
+}
+2019-07-08 12:29:51 +0000  Writing entitlements for <IDEDistributionItem: 0x7f92fbda6a10 'org.cocoapods.TTSegmentedControl' '<DVTFilePath:0x7f92fe7fb0f0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/TTSegmentedControl.framework'>'> to: /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~TRxXZ8
+2019-07-08 12:29:51 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '45DBF781F5D3E7B049DFD2F7F2A9DC1F90C545D7' '--entitlements' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~TRxXZ8' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/TTSegmentedControl.framework'
+2019-07-08 12:29:52 +0000  /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/TTSegmentedControl.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.TTSegmentedControl]
+2019-07-08 12:29:52 +0000  /usr/bin/codesign exited with 0
+2019-07-08 12:29:52 +0000  Entitlements for <IDEDistributionItem: 0x7f93030380c0 'org.cocoapods.leveldb' '<DVTFilePath:0x7f92ff3af0e0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/leveldb.framework'>'>: {
+}
+2019-07-08 12:29:52 +0000  Writing entitlements for <IDEDistributionItem: 0x7f93030380c0 'org.cocoapods.leveldb' '<DVTFilePath:0x7f92ff3af0e0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/leveldb.framework'>'> to: /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~DtpFYN
+2019-07-08 12:29:52 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '45DBF781F5D3E7B049DFD2F7F2A9DC1F90C545D7' '--entitlements' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~DtpFYN' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/leveldb.framework'
+2019-07-08 12:29:52 +0000  /usr/bin/codesign exited with 0
+2019-07-08 12:29:52 +0000  Entitlements for <IDEDistributionItem: 0x7f9300f85b50 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f9300849070:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftCore.dylib'>'>: {
+}
+2019-07-08 12:29:52 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9300f85b50 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f9300849070:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftCore.dylib'>'> to: /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~2Ftzh6
+2019-07-08 12:29:52 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '45DBF781F5D3E7B049DFD2F7F2A9DC1F90C545D7' '--entitlements' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~2Ftzh6' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftCore.dylib'
+2019-07-08 12:29:54 +0000  /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2019-07-08 12:29:54 +0000  /usr/bin/codesign exited with 0
+2019-07-08 12:29:54 +0000  Entitlements for <IDEDistributionItem: 0x7f9300dc7dd0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f92ffca5d00:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2019-07-08 12:29:54 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9300dc7dd0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f92ffca5d00:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~u4x8xN
+2019-07-08 12:29:54 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '45DBF781F5D3E7B049DFD2F7F2A9DC1F90C545D7' '--entitlements' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~u4x8xN' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftCoreFoundation.dylib'
+2019-07-08 12:29:54 +0000  /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2019-07-08 12:29:54 +0000  /usr/bin/codesign exited with 0
+2019-07-08 12:29:54 +0000  Entitlements for <IDEDistributionItem: 0x7f92ff3516e0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f92ff065870:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2019-07-08 12:29:54 +0000  Writing entitlements for <IDEDistributionItem: 0x7f92ff3516e0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f92ff065870:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~heU9PA
+2019-07-08 12:29:54 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '45DBF781F5D3E7B049DFD2F7F2A9DC1F90C545D7' '--entitlements' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~heU9PA' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftCoreGraphics.dylib'
+2019-07-08 12:29:54 +0000  /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2019-07-08 12:29:54 +0000  /usr/bin/codesign exited with 0
+2019-07-08 12:29:54 +0000  Entitlements for <IDEDistributionItem: 0x7f9303275ee0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f92fbbe8a70:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2019-07-08 12:29:54 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9303275ee0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f92fbbe8a70:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~Sde6QJ
+2019-07-08 12:29:54 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '45DBF781F5D3E7B049DFD2F7F2A9DC1F90C545D7' '--entitlements' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~Sde6QJ' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftCoreImage.dylib'
+2019-07-08 12:29:54 +0000  /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2019-07-08 12:29:54 +0000  /usr/bin/codesign exited with 0
+2019-07-08 12:29:54 +0000  Entitlements for <IDEDistributionItem: 0x7f9300fcd140 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f93003aa310:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2019-07-08 12:29:54 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9300fcd140 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f93003aa310:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~KTzeyE
+2019-07-08 12:29:54 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '45DBF781F5D3E7B049DFD2F7F2A9DC1F90C545D7' '--entitlements' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~KTzeyE' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftDarwin.dylib'
+2019-07-08 12:29:55 +0000  /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2019-07-08 12:29:55 +0000  /usr/bin/codesign exited with 0
+2019-07-08 12:29:55 +0000  Entitlements for <IDEDistributionItem: 0x7f92fe7933e0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f92fffd1520:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2019-07-08 12:29:55 +0000  Writing entitlements for <IDEDistributionItem: 0x7f92fe7933e0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f92fffd1520:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~TqR7dK
+2019-07-08 12:29:55 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '45DBF781F5D3E7B049DFD2F7F2A9DC1F90C545D7' '--entitlements' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~TqR7dK' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftDispatch.dylib'
+2019-07-08 12:29:55 +0000  /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2019-07-08 12:29:55 +0000  /usr/bin/codesign exited with 0
+2019-07-08 12:29:55 +0000  Entitlements for <IDEDistributionItem: 0x7f92ff0f40c0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f9300d873a0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2019-07-08 12:29:55 +0000  Writing entitlements for <IDEDistributionItem: 0x7f92ff0f40c0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f9300d873a0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~VnqE7B
+2019-07-08 12:29:55 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '45DBF781F5D3E7B049DFD2F7F2A9DC1F90C545D7' '--entitlements' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~VnqE7B' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftFoundation.dylib'
+2019-07-08 12:29:55 +0000  /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2019-07-08 12:29:55 +0000  /usr/bin/codesign exited with 0
+2019-07-08 12:29:55 +0000  Entitlements for <IDEDistributionItem: 0x7f92ff9c2220 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f92ffb1c0b0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2019-07-08 12:29:55 +0000  Writing entitlements for <IDEDistributionItem: 0x7f92ff9c2220 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f92ffb1c0b0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~ZMDX8H
+2019-07-08 12:29:55 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '45DBF781F5D3E7B049DFD2F7F2A9DC1F90C545D7' '--entitlements' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~ZMDX8H' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftMetal.dylib'
+2019-07-08 12:29:56 +0000  /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2019-07-08 12:29:56 +0000  /usr/bin/codesign exited with 0
+2019-07-08 12:29:56 +0000  Entitlements for <IDEDistributionItem: 0x7f92ff3c6500 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f9300a623d0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2019-07-08 12:29:56 +0000  Writing entitlements for <IDEDistributionItem: 0x7f92ff3c6500 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f9300a623d0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~EcdZ5k
+2019-07-08 12:29:56 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '45DBF781F5D3E7B049DFD2F7F2A9DC1F90C545D7' '--entitlements' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~EcdZ5k' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftObjectiveC.dylib'
+2019-07-08 12:29:56 +0000  /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2019-07-08 12:29:56 +0000  /usr/bin/codesign exited with 0
+2019-07-08 12:29:56 +0000  Entitlements for <IDEDistributionItem: 0x7f9303183750 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f9300aef400:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2019-07-08 12:29:56 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9303183750 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f9300aef400:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~DJhJ9k
+2019-07-08 12:29:56 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '45DBF781F5D3E7B049DFD2F7F2A9DC1F90C545D7' '--entitlements' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~DJhJ9k' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftQuartzCore.dylib'
+2019-07-08 12:29:56 +0000  /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2019-07-08 12:29:56 +0000  /usr/bin/codesign exited with 0
+2019-07-08 12:29:56 +0000  Entitlements for <IDEDistributionItem: 0x7f930326bf50 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f9300a1b270:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftUIKit.dylib'>'>: {
+}
+2019-07-08 12:29:56 +0000  Writing entitlements for <IDEDistributionItem: 0x7f930326bf50 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f9300a1b270:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftUIKit.dylib'>'> to: /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~Zp8ieL
+2019-07-08 12:29:56 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '45DBF781F5D3E7B049DFD2F7F2A9DC1F90C545D7' '--entitlements' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~Zp8ieL' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftUIKit.dylib'
+2019-07-08 12:29:57 +0000  /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2019-07-08 12:29:57 +0000  /usr/bin/codesign exited with 0
+2019-07-08 12:29:57 +0000  Entitlements for <IDEDistributionItem: 0x7f9300eac620 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f92fe171cd0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftos.dylib'>'>: {
+}
+2019-07-08 12:29:57 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9300eac620 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f92fe171cd0:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/libswiftos.dylib'>'> to: /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~zQycWe
+2019-07-08 12:29:57 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '45DBF781F5D3E7B049DFD2F7F2A9DC1F90C545D7' '--entitlements' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~zQycWe' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftos.dylib'
+2019-07-08 12:29:57 +0000  /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2019-07-08 12:29:57 +0000  /usr/bin/codesign exited with 0
+2019-07-08 12:29:57 +0000  Entitlements for <IDEDistributionItem: 0x7f930307dbd0 'org.cocoapods.nanopb' '<DVTFilePath:0x7f92fc87d630:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/nanopb.framework'>'>: {
+}
+2019-07-08 12:29:57 +0000  Writing entitlements for <IDEDistributionItem: 0x7f930307dbd0 'org.cocoapods.nanopb' '<DVTFilePath:0x7f92fc87d630:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app/Frameworks/nanopb.framework'>'> to: /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~YOGAfc
+2019-07-08 12:29:57 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '45DBF781F5D3E7B049DFD2F7F2A9DC1F90C545D7' '--entitlements' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~YOGAfc' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/nanopb.framework'
+2019-07-08 12:29:57 +0000  /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app/Frameworks/nanopb.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.nanopb]
+2019-07-08 12:29:57 +0000  /usr/bin/codesign exited with 0
+2019-07-08 12:29:57 +0000  Entitlements for <IDEDistributionItem: 0x7f930313a5c0 'com.nst.Travanada3' '<DVTFilePath:0x7f9311964540:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app'>'>: {
+    "application-identifier" = "CFZ9279PJX.com.nst.Travanada3";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = CFZ9279PJX;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "CFZ9279PJX.com.nst.Travanada3"
+    );
+}
+2019-07-08 12:29:57 +0000  Writing entitlements for <IDEDistributionItem: 0x7f930313a5c0 'com.nst.Travanada3' '<DVTFilePath:0x7f9311964540:'/Users/pawan/Library/Developer/Xcode/Archives/2019-07-08/Travanada2 08-07-19, 5.50 PM.xcarchive/Products/Applications/Travanada2.app'>'> to: /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~az9sK4
+2019-07-08 12:29:57 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '45DBF781F5D3E7B049DFD2F7F2A9DC1F90C545D7' '--entitlements' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/entitlements~~~az9sK4' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app'
+2019-07-08 12:29:58 +0000  /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root/Payload/Travanada2.app: signed app bundle with Mach-O universal (armv7 arm64) [com.nst.Travanada3]
+2019-07-08 12:29:58 +0000  /usr/bin/codesign exited with 0
+2019-07-08 12:29:58 +0000  Processing step: IDEDistributionZipODRItemStep
+2019-07-08 12:29:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-08 12:29:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-08 12:29:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-08 12:29:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-08 12:29:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-08 12:29:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-08 12:29:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-08 12:29:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-08 12:29:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-08 12:29:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-08 12:29:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-08 12:29:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-08 12:29:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-08 12:29:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-08 12:29:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-08 12:29:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-08 12:29:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-08 12:29:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-08 12:29:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-08 12:29:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-08 12:29:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-08 12:29:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-08 12:29:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-08 12:29:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-08 12:29:58 +0000  Processing step: IDEDistributionCreateIPAStep
+2019-07-08 12:29:58 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root' '/var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Packages/Travanada2.ipa'
+2019-07-08 12:29:58 +0000  >>> Copying /var/folders/m5/g983bwvn0b55fktv2nlmfdtc0000gn/T/XcodeDistPipeline.~~~ZPsali/Root 
+2019-07-08 12:29:58 +0000  copying file ./Payload/Travanada2.app/_CodeSignature/CodeResources ... 
+2019-07-08 12:29:58 +0000  46900 bytes for ./Payload/Travanada2.app/_CodeSignature/CodeResources
+copying file ./Payload/Travanada2.app/Travanada2 ... 
+2019-07-08 12:29:59 +0000  5561200 bytes for ./Payload/Travanada2.app/Travanada2
+copying file ./Payload/Travanada2.app/AppIcon20x20@2x.png ... 
+4265 bytes for ./Payload/Travanada2.app/AppIcon20x20@2x.png
+copying file ./Payload/Travanada2.app/AppIcon20x20@3x.png ... 
+2019-07-08 12:29:59 +0000  6296 bytes for ./Payload/Travanada2.app/AppIcon20x20@3x.png
+copying file ./Payload/Travanada2.app/AppIcon60x60@2x.png ... 
+2019-07-08 12:29:59 +0000  13411 bytes for ./Payload/Travanada2.app/AppIcon60x60@2x.png
+copying file ./Payload/Travanada2.app/AppIcon29x29@2x.png ... 
+2019-07-08 12:29:59 +0000  6126 bytes for ./Payload/Travanada2.app/AppIcon29x29@2x.png
+copying file ./Payload/Travanada2.app/AppIcon40x40@3x.png ... 
+2019-07-08 12:29:59 +0000  13411 bytes for ./Payload/Travanada2.app/AppIcon40x40@3x.png
+copying file ./Payload/Travanada2.app/AppIcon29x29~ipad.png ... 
+2019-07-08 12:29:59 +0000  3192 bytes for ./Payload/Travanada2.app/AppIcon29x29~ipad.png
+copying file ./Payload/Travanada2.app/AppIcon40x40@2x.png ... 
+2019-07-08 12:29:59 +0000  8912 bytes for ./Payload/Travanada2.app/AppIcon40x40@2x.png
+copying file ./Payload/Travanada2.app/AppIcon29x29@3x.png ... 
+2019-07-08 12:29:59 +0000  9661 bytes for ./Payload/Travanada2.app/AppIcon29x29@3x.png
+copying file ./Payload/Travanada2.app/GoogleService-Info.plist ... 
+721 bytes for ./Payload/Travanada2.app/GoogleService-Info.plist
+copying file ./Payload/Travanada2.app/AppIcon60x60@3x.png ... 
+2019-07-08 12:29:59 +0000  20413 bytes for ./Payload/Travanada2.app/AppIcon60x60@3x.png
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/Kml-hA-54y-view-0kS-i2-jvS.nib/objects-11.0+.nib ... 
+3072 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/Kml-hA-54y-view-0kS-i2-jvS.nib/objects-11.0+.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/Kml-hA-54y-view-0kS-i2-jvS.nib/runtime.nib ... 
+2019-07-08 12:29:59 +0000  3072 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/Kml-hA-54y-view-0kS-i2-jvS.nib/runtime.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/Hvt-V1-1i1-view-5hw-Ho-aM7.nib/objects-11.0+.nib ... 
+2019-07-08 12:29:59 +0000  13641 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/Hvt-V1-1i1-view-5hw-Ho-aM7.nib/objects-11.0+.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/Hvt-V1-1i1-view-5hw-Ho-aM7.nib/runtime.nib ... 
+2019-07-08 12:29:59 +0000  13777 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/Hvt-V1-1i1-view-5hw-Ho-aM7.nib/runtime.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UIViewController-dWu-VX-uc4.nib/objects-11.0+.nib ... 
+2019-07-08 12:29:59 +0000  1967 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UIViewController-dWu-VX-uc4.nib/objects-11.0+.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UIViewController-dWu-VX-uc4.nib/runtime.nib ... 
+2019-07-08 12:29:59 +0000  1967 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UIViewController-dWu-VX-uc4.nib/runtime.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/DetailsViewController.nib/objects-11.0+.nib ... 
+2019-07-08 12:29:59 +0000  1620 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/DetailsViewController.nib/objects-11.0+.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/DetailsViewController.nib/runtime.nib ... 
+1620 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/DetailsViewController.nib/runtime.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UIViewController-0Qa-6l-m4m.nib/objects-11.0+.nib ... 
+2019-07-08 12:29:59 +0000  1515 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UIViewController-0Qa-6l-m4m.nib/objects-11.0+.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UIViewController-0Qa-6l-m4m.nib/runtime.nib ... 
+1515 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UIViewController-0Qa-6l-m4m.nib/runtime.nib
+2019-07-08 12:29:59 +0000  copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UINavigationController-VM0-CX-zXi.nib/objects-11.0+.nib ... 
+2359 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UINavigationController-VM0-CX-zXi.nib/objects-11.0+.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UINavigationController-VM0-CX-zXi.nib/runtime.nib ... 
+2359 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UINavigationController-VM0-CX-zXi.nib/runtime.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/aZc-62-EgE-view-pmw-UN-vcx.nib/objects-11.0+.nib ... 
+2019-07-08 12:29:59 +0000  9384 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/aZc-62-EgE-view-pmw-UN-vcx.nib/objects-11.0+.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/aZc-62-EgE-view-pmw-UN-vcx.nib/runtime.nib ... 
+2019-07-08 12:29:59 +0000  8920 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/aZc-62-EgE-view-pmw-UN-vcx.nib/runtime.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/Xja-Ij-ZYL-view-8h2-sq-JsJ.nib/objects-11.0+.nib ... 
+2019-07-08 12:29:59 +0000  6375 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/Xja-Ij-ZYL-view-8h2-sq-JsJ.nib/objects-11.0+.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/Xja-Ij-ZYL-view-8h2-sq-JsJ.nib/runtime.nib ... 
+2019-07-08 12:29:59 +0000  6378 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/Xja-Ij-ZYL-view-8h2-sq-JsJ.nib/runtime.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/dWu-VX-uc4-view-ifG-rJ-PPY.nib/objects-11.0+.nib ... 
+6842 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/dWu-VX-uc4-view-ifG-rJ-PPY.nib/objects-11.0+.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/dWu-VX-uc4-view-ifG-rJ-PPY.nib/runtime.nib ... 
+6378 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/dWu-VX-uc4-view-ifG-rJ-PPY.nib/runtime.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/HomeViewController.nib/objects-11.0+.nib ... 
+2631 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/HomeViewController.nib/objects-11.0+.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/HomeViewController.nib/runtime.nib ... 
+2635 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/HomeViewController.nib/runtime.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/CalendarViewController.nib/objects-11.0+.nib ... 
+1197 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/CalendarViewController.nib/objects-11.0+.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/CalendarViewController.nib/runtime.nib ... 
+1197 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/CalendarViewController.nib/runtime.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UIViewController-Id4-1M-Cfp.nib/objects-11.0+.nib ... 
+1032 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UIViewController-Id4-1M-Cfp.nib/objects-11.0+.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UIViewController-Id4-1M-Cfp.nib/runtime.nib ... 
+1032 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UIViewController-Id4-1M-Cfp.nib/runtime.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/yr8-Nv-1GK-view-0kj-ah-Yg0.nib/objects-11.0+.nib ... 
+2019-07-08 12:29:59 +0000  24860 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/yr8-Nv-1GK-view-0kj-ah-Yg0.nib/objects-11.0+.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/yr8-Nv-1GK-view-0kj-ah-Yg0.nib/runtime.nib ... 
+2019-07-08 12:29:59 +0000  25045 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/yr8-Nv-1GK-view-0kj-ah-Yg0.nib/runtime.nib
+2019-07-08 12:29:59 +0000  copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/TestViewController.nib/objects-11.0+.nib ... 
+2019-07-08 12:29:59 +0000  991 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/TestViewController.nib/objects-11.0+.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/TestViewController.nib/runtime.nib ... 
+991 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/TestViewController.nib/runtime.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UINavigationController-oS8-jG-V68.nib/objects-11.0+.nib ... 
+2019-07-08 12:29:59 +0000  2284 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UINavigationController-oS8-jG-V68.nib/objects-11.0+.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UINavigationController-oS8-jG-V68.nib/runtime.nib ... 
+2019-07-08 12:29:59 +0000  2284 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UINavigationController-oS8-jG-V68.nib/runtime.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib ... 
+2019-07-08 12:29:59 +0000  16048 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib ... 
+2019-07-08 12:29:59 +0000  16126 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib
+2019-07-08 12:29:59 +0000  copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/ckS-O8-8IM-view-Jcy-Ru-fiW.nib/objects-11.0+.nib ... 
+2019-07-08 12:29:59 +0000  18069 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/ckS-O8-8IM-view-Jcy-Ru-fiW.nib/objects-11.0+.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/ckS-O8-8IM-view-Jcy-Ru-fiW.nib/runtime.nib ... 
+2019-07-08 12:29:59 +0000  18083 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/ckS-O8-8IM-view-Jcy-Ru-fiW.nib/runtime.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/dRm-x1-b8d-view-Qzu-9j-lqV.nib/objects-11.0+.nib ... 
+2588 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/dRm-x1-b8d-view-Qzu-9j-lqV.nib/objects-11.0+.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/dRm-x1-b8d-view-Qzu-9j-lqV.nib/runtime.nib ... 
+2019-07-08 12:29:59 +0000  3183 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/dRm-x1-b8d-view-Qzu-9j-lqV.nib/runtime.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/0Qa-6l-m4m-view-K1g-fo-nst.nib/objects-11.0+.nib ... 
+2019-07-08 12:29:59 +0000  8390 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/0Qa-6l-m4m-view-K1g-fo-nst.nib/objects-11.0+.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/0Qa-6l-m4m-view-K1g-fo-nst.nib/runtime.nib ... 
+9228 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/0Qa-6l-m4m-view-K1g-fo-nst.nib/runtime.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/Q20-s0-0eP-view-Whj-EI-vye.nib/objects-11.0+.nib ... 
+9614 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/Q20-s0-0eP-view-Whj-EI-vye.nib/objects-11.0+.nib
+2019-07-08 12:29:59 +0000  copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/Q20-s0-0eP-view-Whj-EI-vye.nib/runtime.nib ... 
+2019-07-08 12:29:59 +0000  9753 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/Q20-s0-0eP-view-Whj-EI-vye.nib/runtime.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UIViewController-Kml-hA-54y.nib/objects-11.0+.nib ... 
+2019-07-08 12:29:59 +0000  1422 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UIViewController-Kml-hA-54y.nib/objects-11.0+.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UIViewController-Kml-hA-54y.nib/runtime.nib ... 
+1422 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UIViewController-Kml-hA-54y.nib/runtime.nib
+2019-07-08 12:29:59 +0000  copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UINavigationController-BkS-xk-IQm.nib/objects-11.0+.nib ... 
+2019-07-08 12:29:59 +0000  3282 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UINavigationController-BkS-xk-IQm.nib/objects-11.0+.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UINavigationController-BkS-xk-IQm.nib/runtime.nib ... 
+2019-07-08 12:29:59 +0000  3285 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UINavigationController-BkS-xk-IQm.nib/runtime.nib
+2019-07-08 12:29:59 +0000  copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UIViewController-aZc-62-EgE.nib/objects-11.0+.nib ... 
+1033 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UIViewController-aZc-62-EgE.nib/objects-11.0+.nib
+2019-07-08 12:29:59 +0000  copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UIViewController-aZc-62-EgE.nib/runtime.nib ... 
+1033 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/UIViewController-aZc-62-EgE.nib/runtime.nib
+2019-07-08 12:29:59 +0000  copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/Info.plist ... 
+1039 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/Info.plist
+2019-07-08 12:29:59 +0000  copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/SelectedRowViewController.nib/objects-11.0+.nib ... 
+2019-07-08 12:29:59 +0000  1396 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/SelectedRowViewController.nib/objects-11.0+.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/SelectedRowViewController.nib/runtime.nib ... 
+2019-07-08 12:29:59 +0000  1396 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/SelectedRowViewController.nib/runtime.nib
+2019-07-08 12:29:59 +0000  copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/Id4-1M-Cfp-view-EeK-ak-eDq.nib/objects-11.0+.nib ... 
+2019-07-08 12:29:59 +0000  8382 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/Id4-1M-Cfp-view-EeK-ak-eDq.nib/objects-11.0+.nib
+copying file ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/Id4-1M-Cfp-view-EeK-ak-eDq.nib/runtime.nib ... 
+2019-07-08 12:29:59 +0000  7913 bytes for ./Payload/Travanada2.app/Base.lproj/Main.storyboardc/Id4-1M-Cfp-view-EeK-ak-eDq.nib/runtime.nib
+2019-07-08 12:29:59 +0000  copying file ./Payload/Travanada2.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2019-07-08 12:29:59 +0000  1985 bytes for ./Payload/Travanada2.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/Travanada2.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2019-07-08 12:29:59 +0000  832 bytes for ./Payload/Travanada2.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/Travanada2.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2019-07-08 12:29:59 +0000  258 bytes for ./Payload/Travanada2.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/Travanada2.app/Assets.car ... 
+2019-07-08 12:30:00 +0000  16375824 bytes for ./Payload/Travanada2.app/Assets.car
+copying file ./Payload/Travanada2.app/AppIcon40x40@2x~ipad.png ... 
+8912 bytes for ./Payload/Travanada2.app/AppIcon40x40@2x~ipad.png
+copying file ./Payload/Travanada2.app/AppIcon76x76@2x~ipad.png ... 
+2019-07-08 12:30:00 +0000  17200 bytes for ./Payload/Travanada2.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/Travanada2.app/AppIcon83.5x83.5@2x~ipad.png ... 
+18871 bytes for ./Payload/Travanada2.app/AppIcon83.5x83.5@2x~ipad.png
+copying file ./Payload/Travanada2.app/AppIcon29x29@2x~ipad.png ... 
+6126 bytes for ./Payload/Travanada2.app/AppIcon29x29@2x~ipad.png
+copying file ./Payload/Travanada2.app/airport.txt ... 
+2019-07-08 12:30:00 +0000  3446138 bytes for ./Payload/Travanada2.app/airport.txt
+copying file ./Payload/Travanada2.app/AppIcon40x40~ipad.png ... 
+4265 bytes for ./Payload/Travanada2.app/AppIcon40x40~ipad.png
+copying file ./Payload/Travanada2.app/Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/Travanada2.app/Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources
+copying file ./Payload/Travanada2.app/Frameworks/SwiftyJSON.framework/SwiftyJSON ... 
+2019-07-08 12:30:00 +0000  727280 bytes for ./Payload/Travanada2.app/Frameworks/SwiftyJSON.framework/SwiftyJSON
+copying file ./Payload/Travanada2.app/Frameworks/SwiftyJSON.framework/Info.plist ... 
+2019-07-08 12:30:00 +0000  744 bytes for ./Payload/Travanada2.app/Frameworks/SwiftyJSON.framework/Info.plist
+copying file ./Payload/Travanada2.app/Frameworks/libswiftCoreImage.dylib ... 
+2019-07-08 12:30:00 +0000  253648 bytes for ./Payload/Travanada2.app/Frameworks/libswiftCoreImage.dylib
+copying file ./Payload/Travanada2.app/Frameworks/libswiftObjectiveC.dylib ... 
+2019-07-08 12:30:00 +0000  302640 bytes for ./Payload/Travanada2.app/Frameworks/libswiftObjectiveC.dylib
+copying file ./Payload/Travanada2.app/Frameworks/GTMSessionFetcher.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/Travanada2.app/Frameworks/GTMSessionFetcher.framework/_CodeSignature/CodeResources
+copying file ./Payload/Travanada2.app/Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher ... 
+2019-07-08 12:30:00 +0000  825744 bytes for ./Payload/Travanada2.app/Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher
+copying file ./Payload/Travanada2.app/Frameworks/GTMSessionFetcher.framework/Info.plist ... 
+760 bytes for ./Payload/Travanada2.app/Frameworks/GTMSessionFetcher.framework/Info.plist
+copying file ./Payload/Travanada2.app/Frameworks/libswiftCore.dylib ... 
+2019-07-08 12:30:02 +0000  16915040 bytes for ./Payload/Travanada2.app/Frameworks/libswiftCore.dylib
+copying file ./Payload/Travanada2.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2019-07-08 12:30:02 +0000  646848 bytes for ./Payload/Travanada2.app/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Payload/Travanada2.app/Frameworks/AlamofireImage.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/Travanada2.app/Frameworks/AlamofireImage.framework/_CodeSignature/CodeResources
+2019-07-08 12:30:02 +0000  copying file ./Payload/Travanada2.app/Frameworks/AlamofireImage.framework/AlamofireImage ... 
+2019-07-08 12:30:02 +0000  1143280 bytes for ./Payload/Travanada2.app/Frameworks/AlamofireImage.framework/AlamofireImage
+copying file ./Payload/Travanada2.app/Frameworks/AlamofireImage.framework/Info.plist ... 
+2019-07-08 12:30:02 +0000  752 bytes for ./Payload/Travanada2.app/Frameworks/AlamofireImage.framework/Info.plist
+copying file ./Payload/Travanada2.app/Frameworks/libswiftUIKit.dylib ... 
+2019-07-08 12:30:02 +0000  477152 bytes for ./Payload/Travanada2.app/Frameworks/libswiftUIKit.dylib
+copying file ./Payload/Travanada2.app/Frameworks/libswiftMetal.dylib ... 
+2019-07-08 12:30:02 +0000  298096 bytes for ./Payload/Travanada2.app/Frameworks/libswiftMetal.dylib
+copying file ./Payload/Travanada2.app/Frameworks/libswiftDispatch.dylib ... 
+2019-07-08 12:30:02 +0000  1018912 bytes for ./Payload/Travanada2.app/Frameworks/libswiftDispatch.dylib
+copying file ./Payload/Travanada2.app/Frameworks/libswiftos.dylib ... 
+2019-07-08 12:30:02 +0000  299424 bytes for ./Payload/Travanada2.app/Frameworks/libswiftos.dylib
+2019-07-08 12:30:02 +0000  copying file ./Payload/Travanada2.app/Frameworks/GoogleUtilities.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/Travanada2.app/Frameworks/GoogleUtilities.framework/_CodeSignature/CodeResources
+copying file ./Payload/Travanada2.app/Frameworks/GoogleUtilities.framework/GoogleUtilities ... 
+2019-07-08 12:30:02 +0000  492512 bytes for ./Payload/Travanada2.app/Frameworks/GoogleUtilities.framework/GoogleUtilities
+copying file ./Payload/Travanada2.app/Frameworks/GoogleUtilities.framework/Info.plist ... 
+2019-07-08 12:30:02 +0000  756 bytes for ./Payload/Travanada2.app/Frameworks/GoogleUtilities.framework/Info.plist
+copying file ./Payload/Travanada2.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2019-07-08 12:30:02 +0000  253792 bytes for ./Payload/Travanada2.app/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Payload/Travanada2.app/Frameworks/TTSegmentedControl.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/Travanada2.app/Frameworks/TTSegmentedControl.framework/_CodeSignature/CodeResources
+copying file ./Payload/Travanada2.app/Frameworks/TTSegmentedControl.framework/TTSegmentedControl ... 
+2019-07-08 12:30:02 +0000  651088 bytes for ./Payload/Travanada2.app/Frameworks/TTSegmentedControl.framework/TTSegmentedControl
+2019-07-08 12:30:02 +0000  copying file ./Payload/Travanada2.app/Frameworks/TTSegmentedControl.framework/Info.plist ... 
+762 bytes for ./Payload/Travanada2.app/Frameworks/TTSegmentedControl.framework/Info.plist
+copying file ./Payload/Travanada2.app/Frameworks/libswiftDarwin.dylib ... 
+2019-07-08 12:30:02 +0000  369728 bytes for ./Payload/Travanada2.app/Frameworks/libswiftDarwin.dylib
+copying file ./Payload/Travanada2.app/Frameworks/nanopb.framework/_CodeSignature/CodeResources ... 
+2019-07-08 12:30:02 +0000  1798 bytes for ./Payload/Travanada2.app/Frameworks/nanopb.framework/_CodeSignature/CodeResources
+copying file ./Payload/Travanada2.app/Frameworks/nanopb.framework/nanopb ... 
+242384 bytes for ./Payload/Travanada2.app/Frameworks/nanopb.framework/nanopb
+copying file ./Payload/Travanada2.app/Frameworks/nanopb.framework/Info.plist ... 
+738 bytes for ./Payload/Travanada2.app/Frameworks/nanopb.framework/Info.plist
+copying file ./Payload/Travanada2.app/Frameworks/SearchTextField.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/Travanada2.app/Frameworks/SearchTextField.framework/_CodeSignature/CodeResources
+copying file ./Payload/Travanada2.app/Frameworks/SearchTextField.framework/SearchTextField ... 
+2019-07-08 12:30:02 +0000  632592 bytes for ./Payload/Travanada2.app/Frameworks/SearchTextField.framework/SearchTextField
+copying file ./Payload/Travanada2.app/Frameworks/SearchTextField.framework/Info.plist ... 
+756 bytes for ./Payload/Travanada2.app/Frameworks/SearchTextField.framework/Info.plist
+copying file ./Payload/Travanada2.app/Frameworks/libswiftQuartzCore.dylib ... 
+2019-07-08 12:30:02 +0000  256864 bytes for ./Payload/Travanada2.app/Frameworks/libswiftQuartzCore.dylib
+copying file ./Payload/Travanada2.app/Frameworks/leveldb.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/Travanada2.app/Frameworks/leveldb.framework/_CodeSignature/CodeResources
+copying file ./Payload/Travanada2.app/Frameworks/leveldb.framework/leveldb ... 
+2019-07-08 12:30:03 +0000  1069040 bytes for ./Payload/Travanada2.app/Frameworks/leveldb.framework/leveldb
+copying file ./Payload/Travanada2.app/Frameworks/leveldb.framework/Info.plist ... 
+739 bytes for ./Payload/Travanada2.app/Frameworks/leveldb.framework/Info.plist
+copying file ./Payload/Travanada2.app/Frameworks/Alamofire.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/Travanada2.app/Frameworks/Alamofire.framework/_CodeSignature/CodeResources
+copying file ./Payload/Travanada2.app/Frameworks/Alamofire.framework/Alamofire ... 
+2019-07-08 12:30:03 +0000  2661520 bytes for ./Payload/Travanada2.app/Frameworks/Alamofire.framework/Alamofire
+2019-07-08 12:30:03 +0000  copying file ./Payload/Travanada2.app/Frameworks/Alamofire.framework/Info.plist ... 
+2019-07-08 12:30:03 +0000  742 bytes for ./Payload/Travanada2.app/Frameworks/Alamofire.framework/Info.plist
+copying file ./Payload/Travanada2.app/Frameworks/MaterialComponents.framework/_CodeSignature/CodeResources ... 
+2339 bytes for ./Payload/Travanada2.app/Frameworks/MaterialComponents.framework/_CodeSignature/CodeResources
+copying file ./Payload/Travanada2.app/Frameworks/MaterialComponents.framework/MaterialBottomNavigation.bundle/Resources/en.lproj/MaterialBottomNavigation.strings ... 
+2019-07-08 12:30:03 +0000  483 bytes for ./Payload/Travanada2.app/Frameworks/MaterialComponents.framework/MaterialBottomNavigation.bundle/Resources/en.lproj/MaterialBottomNavigation.strings
+copying file ./Payload/Travanada2.app/Frameworks/MaterialComponents.framework/MaterialComponents ... 
+2019-07-08 12:30:03 +0000  839584 bytes for ./Payload/Travanada2.app/Frameworks/MaterialComponents.framework/MaterialComponents
+copying file ./Payload/Travanada2.app/Frameworks/MaterialComponents.framework/Info.plist ... 
+763 bytes for ./Payload/Travanada2.app/Frameworks/MaterialComponents.framework/Info.plist
+copying file ./Payload/Travanada2.app/Frameworks/libswiftFoundation.dylib ... 
+2019-07-08 12:30:04 +0000  8479552 bytes for ./Payload/Travanada2.app/Frameworks/libswiftFoundation.dylib
+copying file ./Payload/Travanada2.app/Frameworks/MDFInternationalization.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/Travanada2.app/Frameworks/MDFInternationalization.framework/_CodeSignature/CodeResources
+copying file ./Payload/Travanada2.app/Frameworks/MDFInternationalization.framework/MDFInternationalization ... 
+2019-07-08 12:30:04 +0000  208976 bytes for ./Payload/Travanada2.app/Frameworks/MDFInternationalization.framework/MDFInternationalization
+copying file ./Payload/Travanada2.app/Frameworks/MDFInternationalization.framework/Info.plist ... 
+772 bytes for ./Payload/Travanada2.app/Frameworks/MDFInternationalization.framework/Info.plist
+copying file ./Payload/Travanada2.app/AppIcon20x20~ipad.png ... 
+2019-07-08 12:30:04 +0000  2322 bytes for ./Payload/Travanada2.app/AppIcon20x20~ipad.png
+copying file ./Payload/Travanada2.app/embedded.mobileprovision ... 
+2019-07-08 12:30:04 +0000  7555 bytes for ./Payload/Travanada2.app/embedded.mobileprovision
+copying file ./Payload/Travanada2.app/CardView.nib ... 
+2019-07-08 12:30:04 +0000  5144 bytes for ./Payload/Travanada2.app/CardView.nib
+copying file ./Payload/Travanada2.app/AppIcon20x20@2x~ipad.png ... 
+2019-07-08 12:30:04 +0000  4265 bytes for ./Payload/Travanada2.app/AppIcon20x20@2x~ipad.png
+2019-07-08 12:30:04 +0000  copying file ./Payload/Travanada2.app/Info.plist ... 
+1523 bytes for ./Payload/Travanada2.app/Info.plist
+copying file ./Payload/Travanada2.app/PkgInfo ... 
+2019-07-08 12:30:04 +0000  8 bytes for ./Payload/Travanada2.app/PkgInfo
+copying file ./Payload/Travanada2.app/airlines.txt ... 
+2019-07-08 12:30:04 +0000  95777 bytes for ./Payload/Travanada2.app/airlines.txt
+copying file ./Payload/Travanada2.app/AppIcon76x76~ipad.png ... 
+2019-07-08 12:30:04 +0000  8432 bytes for ./Payload/Travanada2.app/AppIcon76x76~ipad.png
+copying file ./SwiftSupport/iphoneos/libswiftCoreImage.dylib ... 
+2019-07-08 12:30:04 +0000  408288 bytes for ./SwiftSupport/iphoneos/libswiftCoreImage.dylib
+copying file ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib ... 
+2019-07-08 12:30:04 +0000  621408 bytes for ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib
+2019-07-08 12:30:04 +0000  copying file ./SwiftSupport/iphoneos/libswiftCore.dylib ... 
+2019-07-08 12:30:13 +0000  95439296 bytes for ./SwiftSupport/iphoneos/libswiftCore.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib ... 
+2019-07-08 12:30:14 +0000  1999136 bytes for ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib
+copying file ./SwiftSupport/iphoneos/libswiftUIKit.dylib ... 
+2019-07-08 12:30:14 +0000  1550528 bytes for ./SwiftSupport/iphoneos/libswiftUIKit.dylib
+copying file ./SwiftSupport/iphoneos/libswiftMetal.dylib ... 
+2019-07-08 12:30:14 +0000  666144 bytes for ./SwiftSupport/iphoneos/libswiftMetal.dylib
+copying file ./SwiftSupport/iphoneos/libswiftDispatch.dylib ... 
+2019-07-08 12:30:14 +0000  4015008 bytes for ./SwiftSupport/iphoneos/libswiftDispatch.dylib
+2019-07-08 12:30:14 +0000  copying file ./SwiftSupport/iphoneos/libswiftos.dylib ... 
+2019-07-08 12:30:14 +0000  798896 bytes for ./SwiftSupport/iphoneos/libswiftos.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib ... 
+392112 bytes for ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib
+copying file ./SwiftSupport/iphoneos/libswiftDarwin.dylib ... 
+2019-07-08 12:30:14 +0000  1049536 bytes for ./SwiftSupport/iphoneos/libswiftDarwin.dylib
+copying file ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib ... 
+2019-07-08 12:30:14 +0000  477216 bytes for ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib
+copying file ./SwiftSupport/iphoneos/libswiftFoundation.dylib ... 
+2019-07-08 12:30:23 +0000  43068800 bytes for ./SwiftSupport/iphoneos/libswiftFoundation.dylib
+2019-07-08 12:30:23 +0000  /usr/bin/ditto exited with 0
+2019-07-08 12:30:23 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2019-07-08 12:30:23 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2019-07-08 12:30:23 +0000  Processing step: IDEDistributionCreateManifestStep
+2019-07-08 12:30:23 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

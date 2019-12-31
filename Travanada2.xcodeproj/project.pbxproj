@@ -3,40 +3,171 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		513CE173FFC185F97BED60E6 /* Pods_Travanada2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A8087E4E4ADB8B2EFF22C8 /* Pods_Travanada2.framework */; };
-		871CEA962282B2F40063451A /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871CEA952282B2F40063451A /* DestinationViewController.swift */; };
-		871CEA982282B3080063451A /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871CEA972282B3080063451A /* DetailsViewController.swift */; };
-		877A05F3228FE33300593132 /* StructModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A05F2228FE33200593132 /* StructModel.swift */; };
+		8707844022969EC50064D4DA /* TableViewCellForResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707843F22969EC50064D4DA /* TableViewCellForResult.swift */; };
+		8709719022AFA95C009D27FB /* HotelSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8709718F22AFA95C009D27FB /* HotelSearchTableViewCell.swift */; };
+		8709719222AFB7DE009D27FB /* HotelSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8709719122AFB7DE009D27FB /* HotelSearchModel.swift */; };
+		8711D12A231E8AD100DF9137 /* FlightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8711D128231E8AD100DF9137 /* FlightTableViewCell.swift */; };
+		8711D12B231E8AD100DF9137 /* FlightTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8711D129231E8AD100DF9137 /* FlightTableViewCell.xib */; };
+		8711D12E231E8FBA00DF9137 /* HotelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8711D12C231E8FBA00DF9137 /* HotelTableViewCell.swift */; };
+		8711D12F231E8FBA00DF9137 /* HotelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8711D12D231E8FBA00DF9137 /* HotelTableViewCell.xib */; };
+		8716764323192FA50001C626 /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8716764223192FA40001C626 /* CustomSegmentedControl.swift */; };
+		871676462319884F0001C626 /* SelectedRoomDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871676452319884F0001C626 /* SelectedRoomDataModel.swift */; };
+		871B4F222322753900ED6FE3 /* HView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871B4F212322753800ED6FE3 /* HView2.swift */; };
+		871B4F252322763B00ED6FE3 /* Hview2Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871B4F232322763B00ED6FE3 /* Hview2Cell.swift */; };
+		871B4F262322763B00ED6FE3 /* Hview2Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 871B4F242322763B00ED6FE3 /* Hview2Cell.xib */; };
+		8723EB2D232F608C002F1D27 /* TicketDeatils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8723EB2C232F608C002F1D27 /* TicketDeatils.swift */; };
+		872581822323924C00EBDA19 /* HotelCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872581802323924C00EBDA19 /* HotelCell1.swift */; };
+		872581832323924C00EBDA19 /* HotelCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 872581812323924C00EBDA19 /* HotelCell1.xib */; };
+		872584D62331EE1D00B32C06 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872584D52331EE1D00B32C06 /* KeyboardLayoutConstraint.swift */; };
+		8745BB4222E0B4850048DF35 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8745BB4122E0B4850048DF35 /* SearchViewController.swift */; };
+		87477FC72330A2F800FAC262 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87477FC62330A2F800FAC262 /* DetailsViewController.swift */; };
+		87477FC92330A45E00FAC262 /* CustomTestingClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87477FC82330A45E00FAC262 /* CustomTestingClass.swift */; };
+		874D071422C5ED7400A5938F /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D071322C5ED7400A5938F /* DesignableTextField.swift */; };
+		874D7C1F22D35F7600D508A9 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D7C1E22D35F7500D508A9 /* TestViewController.swift */; };
+		874D824222A5242E0028361E /* HotelSearchViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D824122A5242E0028361E /* HotelSearchViewViewController.swift */; };
+		874EB83A230FC3EF00CE8605 /* CradViewShadowEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874EB839230FC3EF00CE8605 /* CradViewShadowEffect.swift */; };
+		874EB83C230FD61E00CE8605 /* LoginView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874EB83B230FD61E00CE8605 /* LoginView2.swift */; };
+		874EB83E230FEA2A00CE8605 /* UnderlineLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874EB83D230FEA2A00CE8605 /* UnderlineLabel.swift */; };
+		874EB840230FEBFC00CE8605 /* SignUpView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874EB83F230FEBFC00CE8605 /* SignUpView2.swift */; };
+		874EB842230FFB7300CE8605 /* UIBarButtonItem+Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874EB841230FFB7300CE8605 /* UIBarButtonItem+Badge.swift */; };
+		874EB84423100BD300CE8605 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874EB84323100BD300CE8605 /* CartViewController.swift */; };
+		8750228722D725CD00B10E20 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8750228522D725CD00B10E20 /* HomeTableViewCell.swift */; };
+		8750228822D725CD00B10E20 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8750228622D725CD00B10E20 /* HomeTableViewCell.xib */; };
+		87523862229FDF7C0052C697 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87523861229FDF7C0052C697 /* CardView.xib */; };
+		87523864229FDFCC0052C697 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87523863229FDFCC0052C697 /* CardView.swift */; };
+		8755DC4E22A4E8F800FB74BA /* GradientEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8755DC4D22A4E8F800FB74BA /* GradientEffect.swift */; };
+		875A8A7B2316990E00B8B073 /* Main2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875A8A7A2316990E00B8B073 /* Main2.storyboard */; };
+		8767CACD232B7258005C1CA6 /* IOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8767CACC232B7258005C1CA6 /* IOSDropDown.swift */; };
+		8767CACF232B836D005C1CA6 /* country.json in Resources */ = {isa = PBXBuildFile; fileRef = 8767CACE232B836C005C1CA6 /* country.json */; };
+		877C5CE022E7155C00447F7B /* SearchFormHotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877C5CDF22E7155C00447F7B /* SearchFormHotel.swift */; };
+		877C5CE222E7213C00447F7B /* RoomGuestForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877C5CE122E7213C00447F7B /* RoomGuestForm.swift */; };
+		877C763A22BC9F4200B8E821 /* MenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877C763922BC9F4200B8E821 /* MenuOption.swift */; };
+		878140132320EA550077CA94 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878140122320EA550077CA94 /* UIImage+Gif.swift */; };
+		8790C955232BB5E4004B6E6E /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8790C954232BB5E4004B6E6E /* PaymentView.swift */; };
+		8790C957232BB611004B6E6E /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8790C956232BB611004B6E6E /* BookingView.swift */; };
+		8792FB7722C48B8E00564F57 /* TableViewCellForResult2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8792FB7622C48B8E00564F57 /* TableViewCellForResult2.swift */; };
+		8792FB7922C4DD7C00564F57 /* TableViewCellForResult3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8792FB7822C4DD7C00564F57 /* TableViewCellForResult3.swift */; };
+		8797B7D0229C0CBC00C5D740 /* airlines.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8797B7CF229C0CBC00C5D740 /* airlines.txt */; };
+		87A2BD5A22CF31CA0009CFF7 /* StructOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BD5922CF31CA0009CFF7 /* StructOperation.swift */; };
+		87A4686B22F7EE050021F1B8 /* MenuHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AB6F9222F46E5500A42066 /* MenuHelper.swift */; };
+		87A4686C22F7EE050021F1B8 /* DismissMenuAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AB6F8F22F46E5400A42066 /* DismissMenuAnimator.swift */; };
+		87A4686D22F7EE050021F1B8 /* MenuViewControllerSideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AB6F9122F46E5400A42066 /* MenuViewControllerSideBar.swift */; };
+		87A4686E22F7EE050021F1B8 /* PresentMenuAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AB6F9322F46E5500A42066 /* PresentMenuAnimator.swift */; };
+		87A4686F22F7EE050021F1B8 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AB6F9022F46E5400A42066 /* Interactor.swift */; };
 		87A73C64228EEE3700279ECB /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A73C63228EEE3700279ECB /* GradientView.swift */; };
+		87AB6F8D22F4397C00A42066 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AB6F8C22F4397C00A42066 /* Line.swift */; };
 		87B0F4F12283F64F001F6F24 /* GMStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B0F4F02283F64F001F6F24 /* GMStepper.swift */; };
+		87B1C27E22C35769000CC577 /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B1C27D22C35769000CC577 /* TableViewCell2.swift */; };
+		87B1C28022C38353000CC577 /* CustomViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B1C27F22C38353000CC577 /* CustomViewDesign.swift */; };
+		87BC30AE22BE225600B641EA /* ColorNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BC30AD22BE225500B641EA /* ColorNavigationViewController.swift */; };
+		87BC30B222BE5A2C00B641EA /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BC30B122BE5A2C00B641EA /* UIView+Animation.swift */; };
 		87C92F0B22801AB00097FD93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C92F0A22801AB00097FD93 /* AppDelegate.swift */; };
 		87C92F0D22801AB00097FD93 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C92F0C22801AB00097FD93 /* HomeViewController.swift */; };
 		87C92F1022801AB00097FD93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C92F0E22801AB00097FD93 /* Main.storyboard */; };
 		87C92F1222801AC20097FD93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C92F1122801AC20097FD93 /* Assets.xcassets */; };
 		87C92F1522801AC20097FD93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C92F1322801AC20097FD93 /* LaunchScreen.storyboard */; };
-		87C92F1D228041F50097FD93 /* SourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C92F1C228041F50097FD93 /* SourceViewController.swift */; };
 		87C92F2122805F800097FD93 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C92F2022805F800097FD93 /* CalendarViewController.swift */; };
-		87DB4DC6229568D6007639C3 /* SeletedViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DB4DC5229568D6007639C3 /* SeletedViewTableViewCell.swift */; };
+		87D191722317ACE600A36133 /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D191712317ACE600A36133 /* RealmHelper.swift */; };
+		87D191742317AD5000A36133 /* RealmDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D191732317AD5000A36133 /* RealmDataModel.swift */; };
+		87D191762317DF3F00A36133 /* SelectedRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D191752317DF3E00A36133 /* SelectedRoomViewController.swift */; };
+		87D191782317F58800A36133 /* SelectedHotelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D191772317F58800A36133 /* SelectedHotelTableViewCell.swift */; };
+		87D1917A2318181E00A36133 /* PasseengerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D191792318181E00A36133 /* PasseengerDetail.swift */; };
+		87DBCAE62328F6F1008C1C62 /* GuestNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DBCAE52328F6F1008C1C62 /* GuestNames.swift */; };
+		87DBCAE92328F985008C1C62 /* GuestDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DBCAE72328F985008C1C62 /* GuestDetailCell.swift */; };
+		87DBCAEA2328F985008C1C62 /* GuestDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87DBCAE82328F985008C1C62 /* GuestDetailCell.xib */; };
 		87DECBDE228C1AA300CEC527 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DECBDD228C1AA200CEC527 /* ResultViewController.swift */; };
 		87DECBE0228C1ADD00CEC527 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DECBDF228C1ADC00CEC527 /* TableViewCell.swift */; };
 		87DECBE2228C1B7F00CEC527 /* airport.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87DECBE1228C1B7F00CEC527 /* airport.txt */; };
 		87DECBE7228C1B8A00CEC527 /* AirportCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DECBE4228C1B8A00CEC527 /* AirportCode.swift */; };
 		87DECBE8228C1B8A00CEC527 /* JsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DECBE5228C1B8A00CEC527 /* JsonModel.swift */; };
+		87E262C323263875006B0045 /* PassengerDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E262C123263875006B0045 /* PassengerDetailsCell.swift */; };
+		87E262C423263875006B0045 /* PassengerDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87E262C223263875006B0045 /* PassengerDetailsCell.xib */; };
+		87EDC066232D0AC20039A9A8 /* TextFieldMaxLengths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EDC065232D0AC20039A9A8 /* TextFieldMaxLengths.swift */; };
 		87F06A262292CDFD00BB7677 /* SelectedRowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F06A252292CDFD00BB7677 /* SelectedRowViewController.swift */; };
+		87F28FAC22C2085500CAE991 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F28FAB22C2085500CAE991 /* RoundButton.swift */; };
+		87F28FB022C2193600CAE991 /* ViewDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F28FAF22C2193600CAE991 /* ViewDesignable.swift */; };
+		87F5707C22B7617D00D3AA4B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87F5707B22B7617D00D3AA4B /* GoogleService-Info.plist */; };
+		87F570A122B799D600D3AA4B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5709A22B799D300D3AA4B /* MenuViewController.swift */; };
+		87F570A222B799D600D3AA4B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5709B22B799D300D3AA4B /* LoginViewController.swift */; };
+		87F570A322B799D600D3AA4B /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5709C22B799D300D3AA4B /* InitialViewController.swift */; };
+		87F570A422B799D600D3AA4B /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5709D22B799D400D3AA4B /* DashboardViewController.swift */; };
+		87F570A522B799D600D3AA4B /* HelperExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5709E22B799D400D3AA4B /* HelperExtensions.swift */; };
+		87F570A622B799D600D3AA4B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5709F22B799D500D3AA4B /* SignUpViewController.swift */; };
+		87F570A722B799D600D3AA4B /* RoundedWhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F570A022B799D600D3AA4B /* RoundedWhiteButton.swift */; };
+		87F8ED6722C0BCA5001127D1 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F8ED6622C0BCA5001127D1 /* StackView.swift */; };
+		87F8ED6922C0BD4D001127D1 /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F8ED6822C0BD4D001127D1 /* StackViewController.swift */; };
+		87F8ED6B22C116F8001127D1 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F8ED6A22C116F8001127D1 /* ImageCollectionViewCell.swift */; };
+		87F8ED6D22C11712001127D1 /* CollectionViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F8ED6C22C11712001127D1 /* CollectionViewViewController.swift */; };
+		87FC3B23230C1DB900363780 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FC3B22230C1DB900363780 /* CustomColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2878B3634F58CB8B82AF9CC5 /* Pods-Travanada2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travanada2.release.xcconfig"; path = "Target Support Files/Pods-Travanada2/Pods-Travanada2.release.xcconfig"; sourceTree = "<group>"; };
 		75A8087E4E4ADB8B2EFF22C8 /* Pods_Travanada2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Travanada2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		871CEA952282B2F40063451A /* DestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
-		871CEA972282B3080063451A /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
-		877A05F2228FE33200593132 /* StructModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructModel.swift; sourceTree = "<group>"; };
+		8707843F22969EC50064D4DA /* TableViewCellForResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellForResult.swift; sourceTree = "<group>"; };
+		8709718F22AFA95C009D27FB /* HotelSearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelSearchTableViewCell.swift; sourceTree = "<group>"; };
+		8709719122AFB7DE009D27FB /* HotelSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelSearchModel.swift; sourceTree = "<group>"; };
+		8711D128231E8AD100DF9137 /* FlightTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTableViewCell.swift; sourceTree = "<group>"; };
+		8711D129231E8AD100DF9137 /* FlightTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlightTableViewCell.xib; sourceTree = "<group>"; };
+		8711D12C231E8FBA00DF9137 /* HotelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HotelTableViewCell.swift; path = ../Travanada2/HotelTableViewCell.swift; sourceTree = "<group>"; };
+		8711D12D231E8FBA00DF9137 /* HotelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HotelTableViewCell.xib; path = ../Travanada2/HotelTableViewCell.xib; sourceTree = "<group>"; };
+		8716764223192FA40001C626 /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomSegmentedControl.swift; path = ../../../../../Users/pawan/Downloads/CustomSegmentedControl.swift; sourceTree = "<group>"; };
+		871676452319884F0001C626 /* SelectedRoomDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedRoomDataModel.swift; sourceTree = "<group>"; };
+		871B4F212322753800ED6FE3 /* HView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HView2.swift; sourceTree = "<group>"; };
+		871B4F232322763B00ED6FE3 /* Hview2Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hview2Cell.swift; sourceTree = "<group>"; };
+		871B4F242322763B00ED6FE3 /* Hview2Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Hview2Cell.xib; sourceTree = "<group>"; };
+		8723EB2C232F608C002F1D27 /* TicketDeatils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDeatils.swift; sourceTree = "<group>"; };
+		872581802323924C00EBDA19 /* HotelCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelCell1.swift; sourceTree = "<group>"; };
+		872581812323924C00EBDA19 /* HotelCell1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotelCell1.xib; sourceTree = "<group>"; };
+		872584D52331EE1D00B32C06 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		872F569A2333826F00C0436B /* airline.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = airline.json; sourceTree = "<group>"; };
+		8745BB4122E0B4850048DF35 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		87477FC62330A2F800FAC262 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		87477FC82330A45E00FAC262 /* CustomTestingClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTestingClass.swift; sourceTree = "<group>"; };
+		874D071322C5ED7400A5938F /* DesignableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		874D7C1E22D35F7500D508A9 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		874D824122A5242E0028361E /* HotelSearchViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelSearchViewViewController.swift; sourceTree = "<group>"; };
+		874EB839230FC3EF00CE8605 /* CradViewShadowEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CradViewShadowEffect.swift; sourceTree = "<group>"; };
+		874EB83B230FD61E00CE8605 /* LoginView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView2.swift; sourceTree = "<group>"; };
+		874EB83D230FEA2A00CE8605 /* UnderlineLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlineLabel.swift; sourceTree = "<group>"; };
+		874EB83F230FEBFC00CE8605 /* SignUpView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView2.swift; sourceTree = "<group>"; };
+		874EB841230FFB7300CE8605 /* UIBarButtonItem+Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Badge.swift"; sourceTree = "<group>"; };
+		874EB84323100BD300CE8605 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		8750228522D725CD00B10E20 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		8750228622D725CD00B10E20 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		87523861229FDF7C0052C697 /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		87523863229FDFCC0052C697 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		8755DC4D22A4E8F800FB74BA /* GradientEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientEffect.swift; sourceTree = "<group>"; };
+		875A8A7A2316990E00B8B073 /* Main2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main2.storyboard; sourceTree = "<group>"; };
+		8767CACC232B7258005C1CA6 /* IOSDropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDropDown.swift; sourceTree = "<group>"; };
+		8767CACE232B836C005C1CA6 /* country.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = country.json; path = ../../../../../Users/pawan/Downloads/country.json; sourceTree = "<group>"; };
+		877C5CDF22E7155C00447F7B /* SearchFormHotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFormHotel.swift; sourceTree = "<group>"; };
+		877C5CE122E7213C00447F7B /* RoomGuestForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomGuestForm.swift; sourceTree = "<group>"; };
+		877C763922BC9F4200B8E821 /* MenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOption.swift; sourceTree = "<group>"; };
+		878140122320EA550077CA94 /* UIImage+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		8790C954232BB5E4004B6E6E /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		8790C956232BB611004B6E6E /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		8792FB7622C48B8E00564F57 /* TableViewCellForResult2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellForResult2.swift; sourceTree = "<group>"; };
+		8792FB7822C4DD7C00564F57 /* TableViewCellForResult3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellForResult3.swift; sourceTree = "<group>"; };
+		8797B7CF229C0CBC00C5D740 /* airlines.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = airlines.txt; sourceTree = "<group>"; };
+		87A2BD5922CF31CA0009CFF7 /* StructOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructOperation.swift; sourceTree = "<group>"; };
 		87A73C63228EEE3700279ECB /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		87AB6F8C22F4397C00A42066 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		87AB6F8F22F46E5400A42066 /* DismissMenuAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissMenuAnimator.swift; sourceTree = "<group>"; };
+		87AB6F9022F46E5400A42066 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		87AB6F9122F46E5400A42066 /* MenuViewControllerSideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuViewControllerSideBar.swift; path = ../MenuViewControllerSideBar.swift; sourceTree = "<group>"; };
+		87AB6F9222F46E5500A42066 /* MenuHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHelper.swift; sourceTree = "<group>"; };
+		87AB6F9322F46E5500A42066 /* PresentMenuAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentMenuAnimator.swift; sourceTree = "<group>"; };
 		87B0F4F02283F64F001F6F24 /* GMStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMStepper.swift; sourceTree = "<group>"; };
+		87B1C27D22C35769000CC577 /* TableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell2.swift; sourceTree = "<group>"; };
+		87B1C27F22C38353000CC577 /* CustomViewDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewDesign.swift; sourceTree = "<group>"; };
+		87BC30AD22BE225500B641EA /* ColorNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorNavigationViewController.swift; sourceTree = "<group>"; };
+		87BC30B122BE5A2C00B641EA /* UIView+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animation.swift"; sourceTree = "<group>"; };
 		87C92F0722801AB00097FD93 /* Travanada2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travanada2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C92F0A22801AB00097FD93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87C92F0C22801AB00097FD93 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -44,15 +175,40 @@
 		87C92F1122801AC20097FD93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87C92F1422801AC20097FD93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87C92F1622801AC20097FD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		87C92F1C228041F50097FD93 /* SourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceViewController.swift; sourceTree = "<group>"; };
 		87C92F2022805F800097FD93 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
-		87DB4DC5229568D6007639C3 /* SeletedViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeletedViewTableViewCell.swift; sourceTree = "<group>"; };
+		87D191712317ACE600A36133 /* RealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
+		87D191732317AD5000A36133 /* RealmDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDataModel.swift; sourceTree = "<group>"; };
+		87D191752317DF3E00A36133 /* SelectedRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedRoomViewController.swift; sourceTree = "<group>"; };
+		87D191772317F58800A36133 /* SelectedHotelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedHotelTableViewCell.swift; sourceTree = "<group>"; };
+		87D191792318181E00A36133 /* PasseengerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasseengerDetail.swift; sourceTree = "<group>"; };
+		87DBCAE52328F6F1008C1C62 /* GuestNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestNames.swift; sourceTree = "<group>"; };
+		87DBCAE72328F985008C1C62 /* GuestDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestDetailCell.swift; sourceTree = "<group>"; };
+		87DBCAE82328F985008C1C62 /* GuestDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuestDetailCell.xib; sourceTree = "<group>"; };
 		87DECBDD228C1AA200CEC527 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		87DECBDF228C1ADC00CEC527 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = ../../AlamofireWithSwiftyJSON/AlamofireWithSwiftyJSON/TableViewCell.swift; sourceTree = "<group>"; };
 		87DECBE1228C1B7F00CEC527 /* airport.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = airport.txt; sourceTree = "<group>"; };
 		87DECBE4228C1B8A00CEC527 /* AirportCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportCode.swift; sourceTree = "<group>"; };
 		87DECBE5228C1B8A00CEC527 /* JsonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonModel.swift; sourceTree = "<group>"; };
+		87E262C123263875006B0045 /* PassengerDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerDetailsCell.swift; sourceTree = "<group>"; };
+		87E262C223263875006B0045 /* PassengerDetailsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PassengerDetailsCell.xib; sourceTree = "<group>"; };
+		87EDC065232D0AC20039A9A8 /* TextFieldMaxLengths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldMaxLengths.swift; sourceTree = "<group>"; };
 		87F06A252292CDFD00BB7677 /* SelectedRowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedRowViewController.swift; sourceTree = "<group>"; };
+		87F28FAB22C2085500CAE991 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		87F28FAF22C2193600CAE991 /* ViewDesignable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDesignable.swift; sourceTree = "<group>"; };
+		87F5707B22B7617D00D3AA4B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		87F5709A22B799D300D3AA4B /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		87F5709B22B799D300D3AA4B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		87F5709C22B799D300D3AA4B /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		87F5709D22B799D400D3AA4B /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		87F5709E22B799D400D3AA4B /* HelperExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperExtensions.swift; sourceTree = "<group>"; };
+		87F5709F22B799D500D3AA4B /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		87F570A022B799D600D3AA4B /* RoundedWhiteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedWhiteButton.swift; sourceTree = "<group>"; };
+		87F84435231A4CB8007D1EC4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		87F8ED6622C0BCA5001127D1 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
+		87F8ED6822C0BD4D001127D1 /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
+		87F8ED6A22C116F8001127D1 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		87F8ED6C22C11712001127D1 /* CollectionViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewViewController.swift; sourceTree = "<group>"; };
+		87FC3B22230C1DB900363780 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 		E5A6D6084CAF0B0C75F9C459 /* Pods-Travanada2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travanada2.debug.xcconfig"; path = "Target Support Files/Pods-Travanada2/Pods-Travanada2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +224,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87167644231930640001C626 /* Designable */ = {
+			isa = PBXGroup;
+			children = (
+				87AB6F8C22F4397C00A42066 /* Line.swift */,
+				872584D52331EE1D00B32C06 /* KeyboardLayoutConstraint.swift */,
+				8767CACC232B7258005C1CA6 /* IOSDropDown.swift */,
+				87A73C63228EEE3700279ECB /* GradientView.swift */,
+				874EB841230FFB7300CE8605 /* UIBarButtonItem+Badge.swift */,
+				87B1C27F22C38353000CC577 /* CustomViewDesign.swift */,
+				87F28FAF22C2193600CAE991 /* ViewDesignable.swift */,
+				878140122320EA550077CA94 /* UIImage+Gif.swift */,
+				874EB83D230FEA2A00CE8605 /* UnderlineLabel.swift */,
+				8755DC4D22A4E8F800FB74BA /* GradientEffect.swift */,
+				874EB839230FC3EF00CE8605 /* CradViewShadowEffect.swift */,
+				87BC30B122BE5A2C00B641EA /* UIView+Animation.swift */,
+				87F28FAB22C2085500CAE991 /* RoundButton.swift */,
+				874D071322C5ED7400A5938F /* DesignableTextField.swift */,
+				87EDC065232D0AC20039A9A8 /* TextFieldMaxLengths.swift */,
+				87FC3B22230C1DB900363780 /* CustomColor.swift */,
+				87A2BD5922CF31CA0009CFF7 /* StructOperation.swift */,
+			);
+			path = Designable;
+			sourceTree = "<group>";
+		};
 		87B0F4EF2283F64F001F6F24 /* GMStepper */ = {
 			isa = PBXGroup;
 			children = (
@@ -79,8 +259,10 @@
 		87C92EFE22801AB00097FD93 = {
 			isa = PBXGroup;
 			children = (
-				87DECBE1228C1B7F00CEC527 /* airport.txt */,
+				87DECBE3228C1B8A00CEC527 /* Model */,
 				87B0F4EF2283F64F001F6F24 /* GMStepper */,
+				87167644231930640001C626 /* Designable */,
+				87F84434231A4C7B007D1EC4 /* TableViewCell */,
 				87C92F0922801AB00097FD93 /* Travanada2 */,
 				87C92F0822801AB00097FD93 /* Products */,
 				E79B9A1115071746F0DB0D78 /* Pods */,
@@ -99,22 +281,59 @@
 		87C92F0922801AB00097FD93 /* Travanada2 */ = {
 			isa = PBXGroup;
 			children = (
-				87DECBE3228C1B8A00CEC527 /* Model */,
+				8767CACE232B836C005C1CA6 /* country.json */,
+				872F569A2333826F00C0436B /* airline.json */,
+				87DECBE1228C1B7F00CEC527 /* airport.txt */,
+				8797B7CF229C0CBC00C5D740 /* airlines.txt */,
+				87C92F1622801AC20097FD93 /* Info.plist */,
+				87F5707B22B7617D00D3AA4B /* GoogleService-Info.plist */,
 				87C92F0A22801AB00097FD93 /* AppDelegate.swift */,
-				87DECBDF228C1ADC00CEC527 /* TableViewCell.swift */,
-				87C92F2022805F800097FD93 /* CalendarViewController.swift */,
 				87C92F0C22801AB00097FD93 /* HomeViewController.swift */,
-				87C92F1C228041F50097FD93 /* SourceViewController.swift */,
-				871CEA952282B2F40063451A /* DestinationViewController.swift */,
-				871CEA972282B3080063451A /* DetailsViewController.swift */,
+				8716764223192FA40001C626 /* CustomSegmentedControl.swift */,
+				87C92F2022805F800097FD93 /* CalendarViewController.swift */,
 				87DECBDD228C1AA200CEC527 /* ResultViewController.swift */,
 				87F06A252292CDFD00BB7677 /* SelectedRowViewController.swift */,
-				87A73C63228EEE3700279ECB /* GradientView.swift */,
+				87DECBDF228C1ADC00CEC527 /* TableViewCell.swift */,
+				87D191792318181E00A36133 /* PasseengerDetail.swift */,
+				874EB84323100BD300CE8605 /* CartViewController.swift */,
+				874EB83B230FD61E00CE8605 /* LoginView2.swift */,
+				874EB83F230FEBFC00CE8605 /* SignUpView2.swift */,
+				87523863229FDFCC0052C697 /* CardView.swift */,
+				87523861229FDF7C0052C697 /* CardView.xib */,
 				87C92F0E22801AB00097FD93 /* Main.storyboard */,
-				87C92F1122801AC20097FD93 /* Assets.xcassets */,
+				875A8A7A2316990E00B8B073 /* Main2.storyboard */,
 				87C92F1322801AC20097FD93 /* LaunchScreen.storyboard */,
-				87C92F1622801AC20097FD93 /* Info.plist */,
-				87DB4DC5229568D6007639C3 /* SeletedViewTableViewCell.swift */,
+				87C92F1122801AC20097FD93 /* Assets.xcassets */,
+				874D824122A5242E0028361E /* HotelSearchViewViewController.swift */,
+				87F5709C22B799D300D3AA4B /* InitialViewController.swift */,
+				87F5709A22B799D300D3AA4B /* MenuViewController.swift */,
+				87F5709B22B799D300D3AA4B /* LoginViewController.swift */,
+				87F5709F22B799D500D3AA4B /* SignUpViewController.swift */,
+				87F5709E22B799D400D3AA4B /* HelperExtensions.swift */,
+				87AB6F8F22F46E5400A42066 /* DismissMenuAnimator.swift */,
+				87477FC62330A2F800FAC262 /* DetailsViewController.swift */,
+				87477FC82330A45E00FAC262 /* CustomTestingClass.swift */,
+				87AB6F9022F46E5400A42066 /* Interactor.swift */,
+				87AB6F9222F46E5500A42066 /* MenuHelper.swift */,
+				87AB6F9322F46E5500A42066 /* PresentMenuAnimator.swift */,
+				87F570A022B799D600D3AA4B /* RoundedWhiteButton.swift */,
+				87BC30AD22BE225500B641EA /* ColorNavigationViewController.swift */,
+				87F5709D22B799D400D3AA4B /* DashboardViewController.swift */,
+				87F8ED6622C0BCA5001127D1 /* StackView.swift */,
+				87F8ED6822C0BD4D001127D1 /* StackViewController.swift */,
+				87F8ED6C22C11712001127D1 /* CollectionViewViewController.swift */,
+				874D7C1E22D35F7500D508A9 /* TestViewController.swift */,
+				8750228622D725CD00B10E20 /* HomeTableViewCell.xib */,
+				8745BB4122E0B4850048DF35 /* SearchViewController.swift */,
+				877C5CDF22E7155C00447F7B /* SearchFormHotel.swift */,
+				877C5CE122E7213C00447F7B /* RoomGuestForm.swift */,
+				87AB6F9122F46E5400A42066 /* MenuViewControllerSideBar.swift */,
+				87D191752317DF3E00A36133 /* SelectedRoomViewController.swift */,
+				871B4F212322753800ED6FE3 /* HView2.swift */,
+				87DBCAE52328F6F1008C1C62 /* GuestNames.swift */,
+				8790C954232BB5E4004B6E6E /* PaymentView.swift */,
+				8790C956232BB611004B6E6E /* BookingView.swift */,
+				8723EB2C232F608C002F1D27 /* TicketDeatils.swift */,
 			);
 			path = Travanada2;
 			sourceTree = "<group>";
@@ -124,9 +343,41 @@
 			children = (
 				87DECBE4228C1B8A00CEC527 /* AirportCode.swift */,
 				87DECBE5228C1B8A00CEC527 /* JsonModel.swift */,
-				877A05F2228FE33200593132 /* StructModel.swift */,
+				8709719122AFB7DE009D27FB /* HotelSearchModel.swift */,
+				87D191712317ACE600A36133 /* RealmHelper.swift */,
+				87D191732317AD5000A36133 /* RealmDataModel.swift */,
+				871676452319884F0001C626 /* SelectedRoomDataModel.swift */,
+				877C763922BC9F4200B8E821 /* MenuOption.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		87F84434231A4C7B007D1EC4 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				87F84435231A4CB8007D1EC4 /* TableViewCell.swift */,
+				87B1C27D22C35769000CC577 /* TableViewCell2.swift */,
+				8707843F22969EC50064D4DA /* TableViewCellForResult.swift */,
+				8792FB7622C48B8E00564F57 /* TableViewCellForResult2.swift */,
+				8792FB7822C4DD7C00564F57 /* TableViewCellForResult3.swift */,
+				8711D128231E8AD100DF9137 /* FlightTableViewCell.swift */,
+				871B4F232322763B00ED6FE3 /* Hview2Cell.swift */,
+				871B4F242322763B00ED6FE3 /* Hview2Cell.xib */,
+				8711D129231E8AD100DF9137 /* FlightTableViewCell.xib */,
+				8711D12C231E8FBA00DF9137 /* HotelTableViewCell.swift */,
+				8711D12D231E8FBA00DF9137 /* HotelTableViewCell.xib */,
+				8709718F22AFA95C009D27FB /* HotelSearchTableViewCell.swift */,
+				87F8ED6A22C116F8001127D1 /* ImageCollectionViewCell.swift */,
+				87D191772317F58800A36133 /* SelectedHotelTableViewCell.swift */,
+				8750228522D725CD00B10E20 /* HomeTableViewCell.swift */,
+				872581802323924C00EBDA19 /* HotelCell1.swift */,
+				87E262C123263875006B0045 /* PassengerDetailsCell.swift */,
+				87DBCAE72328F985008C1C62 /* GuestDetailCell.swift */,
+				87DBCAE82328F985008C1C62 /* GuestDetailCell.xib */,
+				87E262C223263875006B0045 /* PassengerDetailsCell.xib */,
+				872581812323924C00EBDA19 /* HotelCell1.xib */,
+			);
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 		AD04AAF6AF79E8830E3AA48A /* Frameworks */ = {
@@ -180,11 +431,12 @@
 				TargetAttributes = {
 					87C92F0622801AB00097FD93 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
 			buildConfigurationList = 87C92F0222801AB00097FD93 /* Build configuration list for PBXProject "Travanada2" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -208,8 +460,20 @@
 			files = (
 				87C92F1522801AC20097FD93 /* LaunchScreen.storyboard in Resources */,
 				87C92F1222801AC20097FD93 /* Assets.xcassets in Resources */,
+				8750228822D725CD00B10E20 /* HomeTableViewCell.xib in Resources */,
+				8711D12B231E8AD100DF9137 /* FlightTableViewCell.xib in Resources */,
+				8711D12F231E8FBA00DF9137 /* HotelTableViewCell.xib in Resources */,
+				87E262C423263875006B0045 /* PassengerDetailsCell.xib in Resources */,
+				87523862229FDF7C0052C697 /* CardView.xib in Resources */,
+				871B4F262322763B00ED6FE3 /* Hview2Cell.xib in Resources */,
+				8767CACF232B836D005C1CA6 /* country.json in Resources */,
 				87C92F1022801AB00097FD93 /* Main.storyboard in Resources */,
+				8797B7D0229C0CBC00C5D740 /* airlines.txt in Resources */,
 				87DECBE2228C1B7F00CEC527 /* airport.txt in Resources */,
+				875A8A7B2316990E00B8B073 /* Main2.storyboard in Resources */,
+				872581832323924C00EBDA19 /* HotelCell1.xib in Resources */,
+				87F5707C22B7617D00D3AA4B /* GoogleService-Info.plist in Resources */,
+				87DBCAEA2328F985008C1C62 /* GuestDetailCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,8 +491,14 @@
 				"${PODS_ROOT}/Target Support Files/Pods-Travanada2/Pods-Travanada2-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SearchTextField/SearchTextField.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -236,8 +506,14 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SearchTextField.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -273,21 +549,86 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87A4686C22F7EE050021F1B8 /* DismissMenuAnimator.swift in Sources */,
+				87B1C27E22C35769000CC577 /* TableViewCell2.swift in Sources */,
+				87A4686F22F7EE050021F1B8 /* Interactor.swift in Sources */,
+				871676462319884F0001C626 /* SelectedRoomDataModel.swift in Sources */,
+				87F570A222B799D600D3AA4B /* LoginViewController.swift in Sources */,
+				87D1917A2318181E00A36133 /* PasseengerDetail.swift in Sources */,
+				87D191722317ACE600A36133 /* RealmHelper.swift in Sources */,
+				874EB84423100BD300CE8605 /* CartViewController.swift in Sources */,
+				87F570A522B799D600D3AA4B /* HelperExtensions.swift in Sources */,
+				87F8ED6B22C116F8001127D1 /* ImageCollectionViewCell.swift in Sources */,
+				87F28FB022C2193600CAE991 /* ViewDesignable.swift in Sources */,
+				87477FC72330A2F800FAC262 /* DetailsViewController.swift in Sources */,
+				87F570A422B799D600D3AA4B /* DashboardViewController.swift in Sources */,
+				872584D62331EE1D00B32C06 /* KeyboardLayoutConstraint.swift in Sources */,
 				87F06A262292CDFD00BB7677 /* SelectedRowViewController.swift in Sources */,
+				87D191742317AD5000A36133 /* RealmDataModel.swift in Sources */,
+				87EDC066232D0AC20039A9A8 /* TextFieldMaxLengths.swift in Sources */,
+				87F570A622B799D600D3AA4B /* SignUpViewController.swift in Sources */,
 				87DECBE7228C1B8A00CEC527 /* AirportCode.swift in Sources */,
 				87C92F2122805F800097FD93 /* CalendarViewController.swift in Sources */,
 				87A73C64228EEE3700279ECB /* GradientView.swift in Sources */,
+				87A4686B22F7EE050021F1B8 /* MenuHelper.swift in Sources */,
+				87BC30AE22BE225600B641EA /* ColorNavigationViewController.swift in Sources */,
+				87A4686E22F7EE050021F1B8 /* PresentMenuAnimator.swift in Sources */,
+				874D824222A5242E0028361E /* HotelSearchViewViewController.swift in Sources */,
+				87F570A722B799D600D3AA4B /* RoundedWhiteButton.swift in Sources */,
+				874EB83A230FC3EF00CE8605 /* CradViewShadowEffect.swift in Sources */,
+				87B1C28022C38353000CC577 /* CustomViewDesign.swift in Sources */,
+				874EB83E230FEA2A00CE8605 /* UnderlineLabel.swift in Sources */,
 				87C92F0D22801AB00097FD93 /* HomeViewController.swift in Sources */,
+				8767CACD232B7258005C1CA6 /* IOSDropDown.swift in Sources */,
+				87FC3B23230C1DB900363780 /* CustomColor.swift in Sources */,
+				8723EB2D232F608C002F1D27 /* TicketDeatils.swift in Sources */,
 				87DECBE8228C1B8A00CEC527 /* JsonModel.swift in Sources */,
+				87F28FAC22C2085500CAE991 /* RoundButton.swift in Sources */,
 				87C92F0B22801AB00097FD93 /* AppDelegate.swift in Sources */,
 				87DECBDE228C1AA300CEC527 /* ResultViewController.swift in Sources */,
-				87DB4DC6229568D6007639C3 /* SeletedViewTableViewCell.swift in Sources */,
-				87C92F1D228041F50097FD93 /* SourceViewController.swift in Sources */,
-				871CEA962282B2F40063451A /* DestinationViewController.swift in Sources */,
-				877A05F3228FE33300593132 /* StructModel.swift in Sources */,
-				871CEA982282B3080063451A /* DetailsViewController.swift in Sources */,
+				8709719022AFA95C009D27FB /* HotelSearchTableViewCell.swift in Sources */,
+				87E262C323263875006B0045 /* PassengerDetailsCell.swift in Sources */,
+				871B4F252322763B00ED6FE3 /* Hview2Cell.swift in Sources */,
+				87F8ED6D22C11712001127D1 /* CollectionViewViewController.swift in Sources */,
+				8792FB7922C4DD7C00564F57 /* TableViewCellForResult3.swift in Sources */,
+				87BC30B222BE5A2C00B641EA /* UIView+Animation.swift in Sources */,
+				877C5CE222E7213C00447F7B /* RoomGuestForm.swift in Sources */,
+				8755DC4E22A4E8F800FB74BA /* GradientEffect.swift in Sources */,
+				8711D12E231E8FBA00DF9137 /* HotelTableViewCell.swift in Sources */,
+				87AB6F8D22F4397C00A42066 /* Line.swift in Sources */,
+				8711D12A231E8AD100DF9137 /* FlightTableViewCell.swift in Sources */,
+				87F8ED6922C0BD4D001127D1 /* StackViewController.swift in Sources */,
+				8790C957232BB611004B6E6E /* BookingView.swift in Sources */,
+				872581822323924C00EBDA19 /* HotelCell1.swift in Sources */,
+				8750228722D725CD00B10E20 /* HomeTableViewCell.swift in Sources */,
+				8716764323192FA50001C626 /* CustomSegmentedControl.swift in Sources */,
+				874EB842230FFB7300CE8605 /* UIBarButtonItem+Badge.swift in Sources */,
+				8790C955232BB5E4004B6E6E /* PaymentView.swift in Sources */,
+				87A4686D22F7EE050021F1B8 /* MenuViewControllerSideBar.swift in Sources */,
+				878140132320EA550077CA94 /* UIImage+Gif.swift in Sources */,
+				8745BB4222E0B4850048DF35 /* SearchViewController.swift in Sources */,
+				874D7C1F22D35F7600D508A9 /* TestViewController.swift in Sources */,
+				8792FB7722C48B8E00564F57 /* TableViewCellForResult2.swift in Sources */,
+				87F570A122B799D600D3AA4B /* MenuViewController.swift in Sources */,
+				87A2BD5A22CF31CA0009CFF7 /* StructOperation.swift in Sources */,
+				87F570A322B799D600D3AA4B /* InitialViewController.swift in Sources */,
+				877C5CE022E7155C00447F7B /* SearchFormHotel.swift in Sources */,
+				874D071422C5ED7400A5938F /* DesignableTextField.swift in Sources */,
+				874EB83C230FD61E00CE8605 /* LoginView2.swift in Sources */,
+				87DBCAE62328F6F1008C1C62 /* GuestNames.swift in Sources */,
+				87DBCAE92328F985008C1C62 /* GuestDetailCell.swift in Sources */,
+				871B4F222322753900ED6FE3 /* HView2.swift in Sources */,
+				87D191762317DF3F00A36133 /* SelectedRoomViewController.swift in Sources */,
+				8707844022969EC50064D4DA /* TableViewCellForResult.swift in Sources */,
+				8709719222AFB7DE009D27FB /* HotelSearchModel.swift in Sources */,
 				87DECBE0228C1ADD00CEC527 /* TableViewCell.swift in Sources */,
+				877C763A22BC9F4200B8E821 /* MenuOption.swift in Sources */,
+				87523864229FDFCC0052C697 /* CardView.swift in Sources */,
+				87D191782317F58800A36133 /* SelectedHotelTableViewCell.swift in Sources */,
 				87B0F4F12283F64F001F6F24 /* GMStepper.swift in Sources */,
+				87F8ED6722C0BCA5001127D1 /* StackView.swift in Sources */,
+				874EB840230FEBFC00CE8605 /* SignUpView2.swift in Sources */,
+				87477FC92330A45E00FAC262 /* CustomTestingClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,13 +705,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -419,12 +761,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -434,23 +778,28 @@
 			baseConfigurationReference = E5A6D6084CAF0B0C75F9C459 /* Pods-Travanada2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99YP4F57K5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SearchTextField-master/Example/build/Debug-iphonesimulator",
 					"$(PROJECT_DIR)/SearchTextField-master/Example/build/Debug-iphonesimulator/SearchTextField",
 				);
 				INFOPLIST_FILE = Travanada2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nst.Travanada2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nst.Travanada6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -459,23 +808,27 @@
 			baseConfigurationReference = 2878B3634F58CB8B82AF9CC5 /* Pods-Travanada2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99YP4F57K5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SearchTextField-master/Example/build/Debug-iphonesimulator",
 					"$(PROJECT_DIR)/SearchTextField-master/Example/build/Debug-iphonesimulator/SearchTextField",
 				);
 				INFOPLIST_FILE = Travanada2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nst.Travanada2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nst.Travanada6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

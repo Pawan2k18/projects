@@ -101,7 +101,7 @@ import UIKit
     }
 
     /// Font of the buttons. Defaults to AvenirNext-Bold, 20.0 points in size.
-    @objc public var buttonsFont = UIFont(name: "AvenirNext-Bold", size: 20.0)! {
+    @objc public var buttonsFont = UIFont(name: "AvenirNext-Bold", size: 14.0)! {
         didSet {
             for button in [leftButton, rightButton] {
                 button.titleLabel?.font = buttonsFont
@@ -124,7 +124,7 @@ import UIKit
     }
 
     /// Font of the middle label. Defaults to AvenirNext-Bold, 25.0 points in size.
-    @objc public var labelFont = UIFont(name: "AvenirNext-Bold", size: 25.0)! {
+    @objc public var labelFont = UIFont(name: "AvenirNext-Bold", size: 14.0)! {
         didSet {
             label.font = labelFont
         }
@@ -303,7 +303,7 @@ import UIKit
 
         setupNumberFormatter()
         
-        NotificationCenter.default.addObserver(self, selector: #selector(GMStepper.reset), name: UIApplication.willResignActiveNotification, object: nil)
+        //NotificationCenter.default.addObserver(self, selector: #selector(GMStepper.reset), name: UIApplication.willResignActiveNotification, object: nil)
     }
     
     func setupNumberFormatter() {

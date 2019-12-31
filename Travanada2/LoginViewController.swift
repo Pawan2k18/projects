@@ -13,9 +13,24 @@ import Firebase
 
 class LoginViewController:UIViewController, UITextFieldDelegate {
     
-    @IBOutlet weak var emailField: UITextField!
-    @IBOutlet weak var passwordField: UITextField!
+    @IBOutlet var mainView: UIView!
+    @IBOutlet weak var emailField: UITextField!{
+        didSet {
+            emailField.tintColor = UIColor.lightGray
+            emailField.setIcon(#imageLiteral(resourceName: "flight-d"))
+        }
+    }
+        
+    @IBOutlet weak var passwordField: UITextField!{
+        didSet {
+        passwordField.tintColor = UIColor.lightGray
+        passwordField.setIcon(#imageLiteral(resourceName: "cross"))
+        }
+    }
+        
+        
     @IBOutlet weak var dismissButton: UIButton!
+    
     
     var continueButton:RoundedWhiteButton!
     var activityView:UIActivityIndicatorView!
@@ -23,7 +38,13 @@ class LoginViewController:UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.addVerticalGradientLayer(topColor: primaryColor, bottomColor: secondaryColor)
+        
+        //view.addVerticalGradientLayer(topColor: primaryColor, bottomColor: secondaryColor)
+        
+//        self.mainView.backgroundColor = UIColor(patternImage: UIImage(named:"loginform")!)
+//        self.mainView.contentMode = .scaleAspectFill
+        
+        
         
         continueButton = RoundedWhiteButton(frame: CGRect(x: 0, y: 0, width: 200, height: 50))
         continueButton.setTitleColor(secondaryColor, for: .normal)
@@ -153,5 +174,18 @@ class LoginViewController:UIViewController, UITextFieldDelegate {
                 print("Error logging in: \(error!.localizedDescription)")
             }
         }
+    }
+}
+
+extension UITextField {
+    func setIcon(_ image: UIImage) {
+        let iconView = UIImageView(frame:
+            CGRect(x: 10, y: 5, width: 20, height: 20))
+        iconView.image = image
+        let iconContainerView: UIView = UIView(frame:
+            CGRect(x: 20, y: 0, width: 30, height: 30))
+        iconContainerView.addSubview(iconView)
+        leftView = iconContainerView
+        leftViewMode = .always
     }
 }

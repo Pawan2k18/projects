@@ -23,7 +23,10 @@ class SignUpViewController:UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.addVerticalGradientLayer(topColor: primaryColor, bottomColor: secondaryColor)
+        //view.addVerticalGradientLayer(topColor: primaryColor, bottomColor: secondaryColor)
+        
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named:"loginform")!)
+        self.view.contentMode = .scaleAspectFill
         
         continueButton = RoundedWhiteButton(frame: CGRect(x: 0, y: 0, width: 200, height: 50))
         continueButton.setTitleColor(secondaryColor, for: .normal)
@@ -167,6 +170,88 @@ class SignUpViewController:UIViewController, UITextFieldDelegate {
                 changeRequest?.commitChanges { error in
                     if error == nil {
                         print("User display name changed!")
+                        
+                        
+                        let defaults = UserDefaults.standard
+                        
+                        if let DepAirportName = defaults.string(forKey: "DepAirportName") {
+                            print("DepAirportName--- \(DepAirportName)")
+                        }
+                        
+                        if let ArrAirportName = defaults.string(forKey: "ArrAirportName") {
+                            print("ArrAirportName--- \(ArrAirportName)")
+                        }
+                        
+                        if let DepAirportTime = defaults.string(forKey: "DepAirportTime") {
+                            print("DepAirportTime--- \(DepAirportTime)")
+                        }
+                        if let ArrAirportTime = defaults.string(forKey: "ArrAirportTime") {
+                            print("ArrAirportTime--- \(ArrAirportTime)")
+                        }
+                        
+                        if let DepAirportDate = defaults.string(forKey: "DepAirportDate") {
+                            print("DepAirportDate--- \(DepAirportDate)")
+                        }
+                        
+                        if let ArrAirportDate = defaults.string(forKey: "ArrAirportDate") {
+                            print("ArrAirportDate--- \(ArrAirportDate)")
+                        }
+                        if let DepAirportAddress = defaults.string(forKey: "DepAirportAddress") {
+                            print("DepAirportAddress--- \(DepAirportAddress)")
+                        }
+                        
+                        if let ArrAirportAddress = defaults.string(forKey: "ArrAirportAddress") {
+                            print("ArrAirportAddress--- \(ArrAirportAddress)")
+                        }
+                        
+                        if let TotalTime = defaults.string(forKey: "TotalTime") {
+                            print("TotalTime--- \(TotalTime)")
+                        }
+                        if let FlightLogo = defaults.string(forKey: "FlightLogo") {
+                            print("FlightLogo--- \(FlightLogo)")
+                        }
+                        
+                        if let flightName = defaults.string(forKey: "flightName") {
+                            print("flightName--- \(flightName)")
+                        }
+                        
+                        if let flightCode = defaults.string(forKey: "flightCode") {
+                            print("flightCode--- \(flightCode)")
+                        }
+                        
+
+//                            self.ref.child("travanada").child("DepAirportName").setValue(DepAirportName)
+//                            self.ref.child("travanada").child("ArrAirportName").setValue(ArrAirportName)
+//                            self.ref.child("travanada").child("DepAirportTime").setValue(DepAirportTime)
+//                            self.ref.child("travanada").child("ArrAirportTime").setValue(ArrAirportTime)
+//                            self.ref.child("travanada").child("DepAirportDate").setValue(DepAirportDate)
+//                            self.ref.child("travanada").child("ArrAirportDate").setValue(ArrAirportDate)
+//                            self.ref.child("travanada").child("DepAirportAddress").setValue(DepAirportAddress)
+//                            self.ref.child("travanada").child("ArrAirportAddress").setValue(ArrAirportAddress)
+//                            self.ref.child("travanada").child("TotalTime").setValue(TotalTime)
+//                            self.ref.child("travanada").child("FlightLogo").setValue(FlightLogo)
+//                            self.ref.child("travanada").child("flightName").setValue(flightName)
+//                            self.ref.child("travanada").child("flightCode").setValue(flightCode)
+                      
+                        
+
+//                        DepAirportName
+//                        ArrAirportName
+//                        DepAirportTime
+//                        ArrAirportTime
+//                        DepAirportDate
+//                        ArrAirportDate
+//                        DepAirportAddress
+//                        ArrAirportAddress
+//                        TotalTime
+//                        FlightLogo
+//                        flightName
+//                        flightCode
+                        
+                        
+                        
+                        
+                        
                         self.dismiss(animated: false, completion: nil)
                     } else {
                         print("Error: \(error!.localizedDescription)")
